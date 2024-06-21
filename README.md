@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-Pratik is a Go Senior Product Developer at Searce, a cloud consulting and engineering company. He has over Six years of experience in building GenAI Applications ,cloud native applications, micro-services, and event-driven applications using Go, Python, and . He is also Python concurrency expert.
+Pratik is a Go Senior Product Developer at Searce, a cloud consulting and engineering company. He has over Six years of experience in building GenAI Applications ,cloud native applications, micro-services, and event-driven applications using Go, Python, and Rust . He is also Python concurrency expert.
 
 Pratik has presented talk at Google Cloud Next 2022 on ​Migrating monolith applications into microservices.
 
