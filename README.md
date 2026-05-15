@@ -1,32 +1,51 @@
-### Hi there 👋
+# Hi, I'm Pratik 👋
 
-Pratik is a Go Senior Product Developer at Searce, a cloud consulting and engineering company. He has over Six years of experience in building GenAI Applications ,cloud native applications, micro-services, and event-driven applications using Go, Python, and Rust . He is also Python concurrency expert.
+Senior Software Engineer with 7+ years building cloud-native, distributed systems in Go and Python on AWS and GCP. I work on microservices, gRPC and GraphQL APIs, and more recently Retrieval Augmented Generation (RAG) and Agentic AI systems.
 
-Pratik has presented talk at Google Cloud Next 2022 on ​Migrating monolith applications into microservices.
+I started contributing to open source in 2011 and have been at it since.
 
-Pratik is passionate about open source and has been actively contributing to various projects since 2011. He has interned and mentored for Google Summer of Code multiple times, fostering open source culture and mentoring students. He has worked on projects such as google cloud spanner-migration-tool, Skycoin, Gocloud, Nodecloud, Ukiyo, Dunner, and Shelter. He delivers high-quality code and documentation with a committed test-driven development (TDD) approach and deplyment first mental model for kubernetes. He also conducts workshops and helps in HR recruitment for Searce.
+## What I work on
 
-Pratik is active Open Source Contributor since 2011.
+- **Backend & system design** — microservices, service boundaries, cost/security/observability as first-class design concerns
+- **Distributed data** — Cloud Spanner, BigQuery, PostgreSQL, schema/migration design
+- **GenAI & Agentic systems** — multi-agent applications using MCP (Model Context Protocol), function calling, RAG, vector search
+- **DSLs & compilers** — Pratt parsers, blockchain runtime work
+- **Open source mentoring** — GSoC mentor since 2019
 
-Pratik Foster Open Source Culture with Google Summer of code.
+## Recent highlights
 
-Pratik interned for Google summer of code 2017 and 2018 and mentoring Google summer of code 2024,2023,2022,2021,2020,2019,2020,2021.
+- Delivered a BigQuery FinOps program for **Tata Group** — ₹100 Cr+ in savings and a 57% data warehouse cost reduction
+- Architected backend platforms serving **1M+ users** (Go, gRPC, GraphQL, Cloud Spanner)
+- Core contributor to [Google's Spanner Migration Tool](https://github.com/GoogleCloudPlatform/spanner-migration-tool) — the official open-source DB migration platform
+- 🎤 Speaker at **Google Cloud Next 2022** — *Migrating Monolith Applications into Microservices*
 
-As a active open source contributor Pratik has work on gocloud[2], nodecloud [3], ukiyo[4], dunner[5], Shelter[6], trivy[7].
+## Open source
 
+- [Spanner Migration Tool / HarbourBridge](https://github.com/GoogleCloudPlatform/spanner-migration-tool) — Google Cloud's official DB migration platform
+- [Gocloud](https://github.com/leopardslab/gocloud) — multi-cloud Go SDK (AWS, GCP, Azure)
+- [Nodecloud](https://github.com/leopardslab/nodecloud) — multi-cloud Node.js SDK
+- [Ukiyo](https://github.com/leopardslab/ukiyo) — open-source project
+- [Dunner](https://github.com/leopardslab/dunner) — CI/CD task runner
+- [CX Programming Language](https://github.com/skycoin/cx) — Skycoin blockchain DSL/interpreter
+- [Shelter](https://github.com/ShelterAssociates/Shelter) — nonprofit data platform
+- [Trivy](https://github.com/aquasecurity/trivy) — container vulnerability scanner (contributor)
 
-Pratik architects, design, develop products with a TDD approach and also handles the deployment in Kubernetes.
+## Google Summer of Code
 
-Pratik has a diversified outline which includes the aspect of Building Domain Specific Language , Compiler Development , Product Development, DevOps, DevSecOps and Building Data Engineering Pipeline in the cloud-native go and Python.
+- **Contributor:** 2017, 2018
+- **Mentor:** 2019–2026 — guided 10+ students on cloud-native and AI-native projects
 
-Pratik has a strong experience in the implementation of pure microservices and event-driven architectures.
+## Stack
 
-references:
-[1] - https://gitlab.com/picnic-app
-[2] - https://github.com/GoogleCloudPlatform/spanner-migration-tool
-[3] - https://github.com/skycoin/cx
-[4] - https://github.com/leopardslab/gocloud
-[5] - https://github.com/leopardslab/nodecloud
-[6] - https://github.com/leopardslab/ukiyo
-[7] - https://github.com/leopardslab/dunner
-[8] - https://github.com/ShelterAssociates/Shelter
+**Languages:** Go, Python
+**Cloud:** GCP, AWS
+**Databases:** PostgreSQL, BigQuery, Cloud Spanner, AlloyDB AI, MongoDB, Redis
+**APIs:** REST, gRPC, GraphQL
+**Infra:** Kubernetes, Docker, OpenTelemetry, FastAPI, CI/CD
+**GenAI:** LangChain, LangGraph, MCP, RAG, OpenAI / Claude / Gemini APIs, AWS Bedrock, Vertex AI
+**AI dev tools:** Cursor, Claude Code, GitHub Copilot
+
+## Connect
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/pratikdhanave/)
+- ✉️ i.pratikdhanave@gmail.com
