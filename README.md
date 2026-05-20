@@ -16,6 +16,25 @@
 
 ---
 
+## 🏆 Recognition
+
+- 🎤 **[Speaker at Google Cloud Next 2022](https://drive.google.com/drive/folders/1ny-2QsHxhrtlYofbCN3WL2TbVJXDsnxz)** — *"Migrating Monolith Applications into Microservices"*
+- 🌍 **[Google Summer of Code](https://drive.google.com/drive/folders/1hkLNLNHsQeYevR7fDD2NyymJsnndBCCx)** — Contributor (2017–2018), **[Mentor (2019–2026)](https://drive.google.com/drive/folders/1Tpyidwk7zcicIJuz2sDbqYhCVyDjTOSv)**; guided 10+ students on cloud-native and AI-native projects
+- 💼 **Productized Tata Group BigQuery cost-optimization engagement** into Searce's GCP managed service offering — INR ₹100 Cr+ (~$12M) saved, 57% DW cost reduction
+- 🎓 **Google Cloud Generative AI Leader** Professional Certificate
+- 🎓 **Google Cloud Specialization** — Data Engineering, Big Data, and Machine Learning on GCP
+- 🎓 **Ardan Labs** — Ultimate Go and Ultimate Services Go
+
+---
+
+## 🌱 Open source
+
+- [**GoogleCloudPlatform/spanner-migration-tool** (HarbourBridge)](https://github.com/GoogleCloudPlatform/spanner-migration-tool) — core contributor. Built backend APIs for the Intelligent Schema Assistant, CDC pipelines (Datastream · Pub/Sub · Dataflow), and improved post-migration query performance by 40–60% through PK design, indexing, and table interleaving.
+- [**leopardslab/gocloud**](https://github.com/leopardslab/gocloud) — unified API library for managing cloud resources across AWS, GCP, and Azure.
+- [**skycoin/cx**](https://github.com/skycoin/cx) — enhanced the CX interpreter for deterministic blockchain transaction execution; implemented Pratt parser reducing parsing complexity by ~30%.
+
+---
+
 ## 🚀 Featured projects
 
 ### Multi-Agent AI & GenAI
@@ -36,25 +55,6 @@
 | **Globe** | Kubernetes transaction platform handling 30K+ TPS for telecom/FinTech partner integrations — led 10 engineers, PCI-aligned, idempotent processing, error-code orchestration framework. | Go · Kubernetes · Kafka · Pub/Sub · Redis |
 | **Picnic** | Social platform backend serving 1M+ users — reduced API response latency 47% via protobuf contracts and service consolidation; led a remote-first team of 4. | Go · gRPC · GraphQL · Cloud Spanner |
 | **P2P Financial Lending Platform** | Lending platform processing 5K+ loans/month with double-entry ledger, 3+ credit bureaus, payment gateways, KYC/AML, fraud detection, maker-checker RBAC. | Go · PostgreSQL |
-
----
-
-## 🌱 Open source
-
-- [**GoogleCloudPlatform/spanner-migration-tool** (HarbourBridge)](https://github.com/GoogleCloudPlatform/spanner-migration-tool) — core contributor. Built backend APIs for the Intelligent Schema Assistant, CDC pipelines (Datastream · Pub/Sub · Dataflow), and improved post-migration query performance by 40–60% through PK design, indexing, and table interleaving.
-- [**leopardslab/gocloud**](https://github.com/leopardslab/gocloud) — unified API library for managing cloud resources across AWS, GCP, and Azure.
-- [**skycoin/cx**](https://github.com/skycoin/cx) — enhanced the CX interpreter for deterministic blockchain transaction execution; implemented Pratt parser reducing parsing complexity by ~30%.
-
----
-
-## 🏆 Recognition
-
-- 🎤 **[Speaker at Google Cloud Next 2022](https://drive.google.com/drive/folders/1ny-2QsHxhrtlYofbCN3WL2TbVJXDsnxz)** — *"Migrating Monolith Applications into Microservices"*
-- 🌍 **[Google Summer of Code](https://drive.google.com/drive/folders/1hkLNLNHsQeYevR7fDD2NyymJsnndBCCx)** — Contributor (2017–2018), **[Mentor (2019–2026)](https://drive.google.com/drive/folders/1Tpyidwk7zcicIJuz2sDbqYhCVyDjTOSv)**; guided 10+ students on cloud-native and AI-native projects
-- 💼 **Productized Tata Group BigQuery cost-optimization engagement** into Searce's GCP managed service offering — INR ₹100 Cr+ (~$12M) saved, 57% DW cost reduction
-- 🎓 **Google Cloud Generative AI Leader** Professional Certificate
-- 🎓 **Google Cloud Specialization** — Data Engineering, Big Data, and Machine Learning on GCP
-- 🎓 **Ardan Labs** — Ultimate Go and Ultimate Services Go
 
 ---
 
