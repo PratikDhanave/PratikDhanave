@@ -13,7 +13,7 @@
 - **RAG & GraphRAG pipelines** on AlloyDB AI, BigQuery Knowledge Graph, and pgvector
 - **Voice AI assistants** (ElevenLabs + Gemini)
 - **Open Banking** — consent management and regulatory compliance (ADGM, DIFC, SAMA)
-- **Open-source contributions** — Microsoft Agent Framework (agent-framework-go), Genie, Bodh, and Google's Spanner Migration Tool
+- **Open-source contributions** — Microsoft Agent Framework Go, Genie, Bodh, and Google's Spanner Migration Tool
 
 ---
 
@@ -56,7 +56,7 @@ Senior / Staff Engineer and Cloud Architect roles in **FinTech, Healthcare Tech,
 
 ## 🌱 Open source
 
-- [**microsoft/agent-framework-go**](https://github.com/microsoft/agent-framework-go) — contributor to Microsoft's official Go implementation of the Agent Framework. Merged runtime correctness fixes: a nil-update panic in the tool-approval middleware ([#472](https://github.com/microsoft/agent-framework-go/pull/472)) and a dead `reflect.Type` guard in the workflow route builder that silently accepted invalid `PortableValue` handlers ([#489](https://github.com/microsoft/agent-framework-go/pull/489)) — each shipped with a regression test.
+- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — contributor to Microsoft's official Go implementation of the Agent Framework. Merged runtime correctness fixes: a nil-update panic in the tool-approval middleware ([#472](https://github.com/microsoft/agent-framework-go/pull/472)) and a dead `reflect.Type` guard in the workflow route builder that silently accepted invalid `PortableValue` handlers ([#489](https://github.com/microsoft/agent-framework-go/pull/489)) — each shipped with a regression test.
 - [**GoogleCloudPlatform/spanner-migration-tool** (HarbourBridge)](https://github.com/GoogleCloudPlatform/spanner-migration-tool) — core contributor. Built backend APIs for the Intelligent Schema Assistant, CDC pipelines (Datastream · Pub/Sub · Dataflow), and improved post-migration query performance by 40–60% through PK design, indexing, and table interleaving.
 - [**leopardslab/gocloud**](https://github.com/leopardslab/gocloud) — unified API library for managing cloud resources across AWS, GCP, and Azure.
 - [**skycoin/cx**](https://github.com/skycoin/cx) — enhanced the CX interpreter for deterministic blockchain transaction execution; implemented a Pratt parser reducing parsing complexity by ~30%.
