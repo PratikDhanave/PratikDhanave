@@ -1,6 +1,6 @@
 # Hi, I'm Pratik 👋
 
-**Agentic AI Architect** · Pune, India
+**AI Architect** · Pune, India
 
 7+ years building cloud-native, distributed systems in **Go**, **Python**, and **TypeScript** on **GCP**, **AWS**, and **Azure**. I specialize in **Agentic AI systems** and **multi-agent orchestration**, healthcare AI, microservices, gRPC / GraphQL APIs, and FinOps — bridging LLMs with real-time enterprise systems (Google ADK, MCP, MARA, Vertex AI Agent Engine, LangChain, LangGraph, CrewAI).
 
@@ -56,10 +56,10 @@ Senior / Staff Engineer and Cloud Architect roles in **FinTech, Healthcare Tech,
 
 ## 🌱 Open source
 
-- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — contributor to Microsoft's official Go implementation of the Agent Framework. Merged runtime correctness fixes: a nil-update panic in the tool-approval middleware ([#472](https://github.com/microsoft/agent-framework-go/pull/472)) and a dead `reflect.Type` guard in the workflow route builder that silently accepted invalid `PortableValue` handlers ([#489](https://github.com/microsoft/agent-framework-go/pull/489)) — each shipped with a regression test.
+- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **29 merged PRs** into Microsoft's official Go implementation of the Agent Framework (379★), spanning runtime correctness across the Anthropic and OpenAI providers, the workflow engine, A2A, and MCP layers. Highlights: closing leaked streaming HTTP bodies on the Anthropic / OpenAI-Responses paths ([#718](https://github.com/microsoft/agent-framework-go/pull/718)), releasing dead references in `concurrent.Queue.Dequeue` ([#598](https://github.com/microsoft/agent-framework-go/pull/598)), fixing empty responses in the structured-output middleware ([#607](https://github.com/microsoft/agent-framework-go/pull/607)), a nil-update panic in the tool-approval middleware ([#472](https://github.com/microsoft/agent-framework-go/pull/472)), and a dead `PortableValue` guard in the workflow route builder ([#489](https://github.com/microsoft/agent-framework-go/pull/489)) — each shipped with a regression test.
 - [**GoogleCloudPlatform/spanner-migration-tool** (HarbourBridge)](https://github.com/GoogleCloudPlatform/spanner-migration-tool) — core contributor. Built backend APIs for the Intelligent Schema Assistant, CDC pipelines (Datastream · Pub/Sub · Dataflow), and improved post-migration query performance by 40–60% through PK design, indexing, and table interleaving.
-- [**leopardslab/gocloud**](https://github.com/leopardslab/gocloud) — unified API library for managing cloud resources across AWS, GCP, and Azure.
-- [**skycoin/cx**](https://github.com/skycoin/cx) — enhanced the CX interpreter for deterministic blockchain transaction execution; implemented a Pratt parser reducing parsing complexity by ~30%.
+- [**leopardslab/gocloud**](https://github.com/leopardslab/gocloud) — **13 merged PRs** to a unified API library for managing cloud resources across AWS, GCP, and Azure.
+- [**skycoin/cx**](https://github.com/skycoin/cx) — **17 merged PRs** enhancing the CX interpreter for deterministic blockchain transaction execution; implemented a Pratt parser reducing parsing complexity by ~30%.
 
 ---
 
