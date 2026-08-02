@@ -2,7 +2,7 @@
 
 **AI Architect** · Pune, India
 
-7+ years building cloud-native, distributed systems in **Go**, **Python**, and **TypeScript** on **GCP**, **AWS**, and **Azure**. I specialize in **Agentic AI systems** and **multi-agent orchestration**, healthcare AI, microservices, gRPC / GraphQL APIs, and FinOps — bridging LLMs with real-time enterprise systems (Google ADK, MCP, MARA, Vertex AI Agent Engine, LangChain, LangGraph, CrewAI).
+7+ years building cloud-native, distributed systems in **Go**, **Python**, and **TypeScript** on **GCP**, **AWS**, and **Azure**. I specialize in **Agentic AI systems** and **multi-agent orchestration**, healthcare AI, microservices, gRPC / GraphQL APIs, and FinOps — bridging LLMs with real-time enterprise systems (Google ADK, MCP, Microsoft Agent Framework, MARA, Vertex AI Agent Engine, LangChain, LangGraph, CrewAI).
 
 ---
 
@@ -19,15 +19,16 @@
 
 ## 📍 Open to
 
-Senior / Staff Engineer and Cloud Architect roles in **FinTech, Healthcare Tech, GenAI Infrastructure, and Open Banking** — Bengaluru, Pune, Mumbai, Hyderabad, Remote, EMEA, UAE.
+AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinTech, Healthcare Tech, GenAI Infrastructure, and Open Banking** — Bengaluru, Pune, Mumbai, Hyderabad, Remote, EMEA, UAE.
 
 ---
 
 ## 📧 Reach me
 
 - ✉️ **Email** — i.pratikdhanave@gmail.com
-- 💼 **LinkedIn** — [linkedin.com/in/pratikdhanave](https://www.linkedin.com/in/pratikdhanave) (2,455+ followers)
-- 🌐 **Portfolio** — [pratikdhanave.github.io](https://pratikdhanave.github.io)
+- 💼 **LinkedIn** — [linkedin.com/in/pratikdhanave](https://www.linkedin.com/in/pratikdhanave) (2,750+ followers)
+- 🌐 **Portfolio** — [pratikdhanave.com](https://pratikdhanave.com)
+- 📅 **Book a call** — [calendar.app.google/x7W5bAdst4J6MT2u7](https://calendar.app.google/x7W5bAdst4J6MT2u7) · [topmate.io/pratik_dhanave](https://topmate.io/pratik_dhanave)
 - 🎤 **GCN 2022 Talk** — [Migrating Monolith Applications into Microservices](https://drive.google.com/drive/folders/1ny-2QsHxhrtlYofbCN3WL2TbVJXDsnxz)
 
 ---
@@ -35,11 +36,11 @@ Senior / Staff Engineer and Cloud Architect roles in **FinTech, Healthcare Tech,
 ## 📚 Publications & technical articles
 
 - **Multi-Agent Systems Architecture** — hierarchical coordination patterns, function calling, cost-aware decision trees, observability & cost tracking
-  [https://pratikdhanave.com/blog/posts/adk-03-multi-agent-systems.html](https://pratikdhanave.com/blog/posts/adk-03-multi-agent-systems.html)
+[https://pratikdhanave.com/blog/posts/adk-03-multi-agent-systems.html](https://pratikdhanave.com/blog/posts/adk-03-multi-agent-systems.html)
 - **BigQuery FinOps: 57% Cost Reduction at Scale** — query refactoring, materialized views, MERGE optimization, slot-based capacity planning
-  [https://pratikdhanave.com/blog/posts/57-percent-bigquery-cost-reduction-tata.html](https://pratikdhanave.com/blog/posts/57-percent-bigquery-cost-reduction-tata.html)
+[https://pratikdhanave.com/blog/posts/57-percent-bigquery-cost-reduction-tata.html](https://pratikdhanave.com/blog/posts/57-percent-bigquery-cost-reduction-tata.html)
 - **FHIR R4 + HL7 v2 Medical AI Interoperability** — Bodh architecture, cost-aware diagnostic budgets, HIPAA compliance patterns
-  [https://pratikdhanave.com/blog/posts/hl7v2-still-matters.html](https://pratikdhanave.com/blog/posts/hl7v2-still-matters.html)
+[https://pratikdhanave.com/blog/posts/hl7v2-still-matters.html](https://pratikdhanave.com/blog/posts/hl7v2-still-matters.html)
 
 ---
 
@@ -124,7 +125,7 @@ Senior / Staff Engineer and Cloud Architect roles in **FinTech, Healthcare Tech,
 
 Multi-Agent AI · Google ADK · MCP · Agentic Commerce · BigQuery Graph · LLM determinism · Genkit middleware · and the production realities of building reliable AI systems on Google Cloud.
 
-📖 Follow my posts on [LinkedIn](https://www.linkedin.com/in/pratikdhanave) (2,455+ followers).
+📖 Follow my posts on [LinkedIn](https://www.linkedin.com/in/pratikdhanave) (2,750+ followers).
 
 ---
 
@@ -149,4 +150,4 @@ Multi-Agent AI · Google ADK · MCP · Agentic Commerce · BigQuery Graph · LLM
 
 > *Looking for senior engineering talent with deep backend + GenAI + multi-region compliance experience? Let's talk.*
 
-<sub>Last updated: July 2026 · Built with care, not with templates.</sub>
+<sub>Last updated: August 2026 · Built with care, not with templates.</sub>
