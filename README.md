@@ -35,11 +35,11 @@ Senior / Staff Engineer and Cloud Architect roles in **FinTech, Healthcare Tech,
 ## 📚 Publications & technical articles
 
 - **Multi-Agent Systems Architecture** — hierarchical coordination patterns, function calling, cost-aware decision trees, observability & cost tracking
-  [Website](https://pratikdhanave.github.io/articles/multi-agent-systems) · [GitHub](https://github.com/PratikDhanave/genesisofmedium/blob/main/articles/27-multi-agent-systems.md)
+  [https://pratikdhanave.com/blog/posts/adk-03-multi-agent-systems.html](https://pratikdhanave.com/blog/posts/adk-03-multi-agent-systems.html)
 - **BigQuery FinOps: 57% Cost Reduction at Scale** — query refactoring, materialized views, MERGE optimization, slot-based capacity planning
-  [Website](https://pratikdhanave.github.io/articles/bigquery-finops) · [GitHub](https://github.com/PratikDhanave/genesisofmedium/blob/main/articles/28-bigquery-finops.md)
+  [https://pratikdhanave.com/blog/posts/57-percent-bigquery-cost-reduction-tata.html](https://pratikdhanave.com/blog/posts/57-percent-bigquery-cost-reduction-tata.html)
 - **FHIR R4 + HL7 v2 Medical AI Interoperability** — Bodh architecture, cost-aware diagnostic budgets, HIPAA compliance patterns
-  [Website](https://pratikdhanave.github.io/articles/fhir-hl7-medical-ai) · [GitHub](https://github.com/PratikDhanave/genesisofmedium/blob/main/articles/29-fhir-hl7-medical-ai.md)
+  [https://pratikdhanave.com/blog/posts/hl7v2-still-matters.html](https://pratikdhanave.com/blog/posts/hl7v2-still-matters.html)
 
 ---
 
