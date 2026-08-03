@@ -6,6 +6,20 @@
 
 ---
 
+## ⭐ Featured open-source contribution
+
+### [Microsoft Agent Framework Go](https://github.com/microsoft/agent-framework-go) — 99 merged PRs · 394★
+
+Microsoft's official Go implementation of the Agent Framework. My **99 merged PRs** span runtime correctness across the Anthropic and OpenAI providers, the workflow engine, A2A, and MCP layers — **each shipped with a regression test**. Selected highlights:
+
+- Closed leaked streaming HTTP bodies on the Anthropic / OpenAI-Responses paths — [#718](https://github.com/microsoft/agent-framework-go/pull/718)
+- Released dead references in `concurrent.Queue.Dequeue` — [#598](https://github.com/microsoft/agent-framework-go/pull/598)
+- Fixed empty responses in the structured-output middleware — [#607](https://github.com/microsoft/agent-framework-go/pull/607)
+- Fixed a nil-update panic in the tool-approval middleware — [#472](https://github.com/microsoft/agent-framework-go/pull/472)
+- Removed a dead `PortableValue` guard in the workflow route builder — [#489](https://github.com/microsoft/agent-framework-go/pull/489)
+
+---
+
 ## 🎯 What I'm working on right now
 
 - **Multi-agent AI systems** for FinTech (Google ADK · MCP · MARA · Vertex AI Agent Engine)
@@ -57,7 +71,7 @@ AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinT
 
 ## 🌱 Open source
 
-- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **99 merged PRs** into Microsoft's official Go implementation of the Agent Framework (394★), spanning runtime correctness across the Anthropic and OpenAI providers, the workflow engine, A2A, and MCP layers. Highlights: closing leaked streaming HTTP bodies on the Anthropic / OpenAI-Responses paths ([#718](https://github.com/microsoft/agent-framework-go/pull/718)), releasing dead references in `concurrent.Queue.Dequeue` ([#598](https://github.com/microsoft/agent-framework-go/pull/598)), fixing empty responses in the structured-output middleware ([#607](https://github.com/microsoft/agent-framework-go/pull/607)), a nil-update panic in the tool-approval middleware ([#472](https://github.com/microsoft/agent-framework-go/pull/472)), and a dead `PortableValue` guard in the workflow route builder ([#489](https://github.com/microsoft/agent-framework-go/pull/489)) — each shipped with a regression test.
+- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **99 merged PRs** into Microsoft's official Go Agent Framework (394★). See the [featured contribution](#-featured-open-source-contribution) above.
 - [**GoogleCloudPlatform/spanner-migration-tool** (HarbourBridge)](https://github.com/GoogleCloudPlatform/spanner-migration-tool) — core contributor. Built backend APIs for the Intelligent Schema Assistant, CDC pipelines (Datastream · Pub/Sub · Dataflow), and improved post-migration query performance by 40–60% through PK design, indexing, and table interleaving.
 - [**leopardslab/gocloud**](https://github.com/leopardslab/gocloud) — **13 merged PRs** to a unified API library for managing cloud resources across AWS, GCP, and Azure.
 - [**skycoin/cx**](https://github.com/skycoin/cx) — **17 merged PRs** enhancing the CX interpreter for deterministic blockchain transaction execution; implemented a Pratt parser reducing parsing complexity by ~30%.
