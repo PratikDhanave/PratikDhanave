@@ -72,7 +72,7 @@ AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinT
 ## 🌱 Open source
 
 - [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **99 merged PRs** into Microsoft's official Go Agent Framework (394★). See the [featured contribution](#-featured-open-source-contribution) above.
-- [**GoogleCloudPlatform/spanner-migration-tool** (HarbourBridge)](https://github.com/GoogleCloudPlatform/spanner-migration-tool) — core contributor. Built backend APIs for the Intelligent Schema Assistant, CDC pipelines (Datastream · Pub/Sub · Dataflow), and improved post-migration query performance by 40–60% through PK design, indexing, and table interleaving.
+- [**GoogleCloudPlatform/spanner-migration-tool** (HarbourBridge)](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pulls?q=is%3Apr+author%3Apratikdhanave-searce) — core contributor (as [`pratikdhanave-searce`](https://github.com/pratikdhanave-searce), Searce engagement). Built backend APIs for the Intelligent Schema Assistant, CDC pipelines (Datastream · Pub/Sub · Dataflow), and improved post-migration query performance through PK design, indexing, and table interleaving.
 - [**leopardslab/gocloud**](https://github.com/leopardslab/gocloud) — **13 merged PRs** to a unified API library for managing cloud resources across AWS, GCP, and Azure.
 - [**skycoin/cx**](https://github.com/skycoin/cx) — **17 merged PRs** enhancing the CX interpreter for deterministic blockchain transaction execution; implemented a Pratt parser reducing parsing complexity by ~30%.
 
