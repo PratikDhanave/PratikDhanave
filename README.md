@@ -43,7 +43,7 @@ AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinT
 - 💼 **LinkedIn** — [linkedin.com/in/pratikdhanave](https://www.linkedin.com/in/pratikdhanave) (2,750+ followers)
 - 🌐 **Portfolio** — [pratikdhanave.com](https://pratikdhanave.com)
 - 📅 **Book a call** — [calendar.app.google/x7W5bAdst4J6MT2u7](https://calendar.app.google/x7W5bAdst4J6MT2u7) · [topmate.io/pratik_dhanave](https://topmate.io/pratik_dhanave)
-- 🎤 **GCN 2022 Talk** — [Migrating Monolith Applications into Microservices](https://drive.google.com/drive/folders/1ny-2QsHxhrtlYofbCN3WL2TbVJXDsnxz)
+- 🎤 **Google Cloud Next 2022 Talk** — [Migrating Monolith Applications into Microservices](https://drive.google.com/drive/folders/1ny-2QsHxhrtlYofbCN3WL2TbVJXDsnxz)
 
 ---
 
