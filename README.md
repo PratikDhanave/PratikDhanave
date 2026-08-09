@@ -2,7 +2,7 @@
 
 **AI Architect** · Pune, India
 
-7+ years building cloud-native, distributed systems in **Go**, **Python**, and **TypeScript** on **GCP**, **AWS**, and **Azure**. I specialize in **Agentic AI systems** and **multi-agent orchestration**, healthcare AI, microservices, gRPC / GraphQL APIs, and FinOps — bridging LLMs with real-time enterprise systems (Google ADK, MCP, Microsoft Agent Framework, MARA, Vertex AI Agent Engine, LangChain, LangGraph, CrewAI).
+7+ years building cloud-native, distributed systems in **Go**, **Python**, and **TypeScript** on **GCP**, **AWS**, and **Azure**. I specialize in **Agentic AI systems** and **multi-agent orchestration**, healthcare AI, microservices, gRPC / GraphQL APIs, and FinOps — bridging LLMs with real-time enterprise systems (Google ADK, MCP, Microsoft Agent Framework, Multi-Agent Reference Architecture, Vertex AI Agent Engine, LangChain, LangGraph, CrewAI).
 
 ---
 
@@ -22,7 +22,7 @@ Microsoft's official Go implementation of the Agent Framework. My **99 merged PR
 
 ## 🎯 What I'm working on right now
 
-- **Multi-agent AI systems** for FinTech (Google ADK · MCP · MARA · Vertex AI Agent Engine)
+- **Multi-agent AI systems** for FinTech (Google ADK · MCP · Multi-Agent Reference Architecture · Vertex AI Agent Engine)
 - **Medical AI** — FHIR R4 + HL7 v2, cost-aware diagnostic budgets, clinical reasoning
 - **RAG & GraphRAG pipelines** on AlloyDB AI, BigQuery Knowledge Graph, and pgvector
 - **Voice AI assistants** (ElevenLabs + Gemini)
@@ -84,8 +84,8 @@ AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinT
 
 | Project | What it does | Stack |
 |---|---|---|
-| **Genie** | Multi-agent financial assistant bridging LLMs with real-time banking APIs for autonomous advisory, predictive cash-flow analysis, and transaction orchestration. 15 role-specialized agents on Google's [multi-agent reference architecture (MARA)](https://docs.cloud.google.com/architecture/multiagent-ai-system). | Go · MARA · MCP · Vertex AI Agent Engine · PostgreSQL · OpenTelemetry |
-| **Bodh** | Medical AI inspired by Microsoft's [MAI-DxO Sequential Diagnostic Panel](https://microsoft.ai/news/the-path-to-medical-superintelligence/). Virtual physician panel of 7 role-specialized agents (intake, supervisor, questioner, test planner, cost guardian, diagnostician, reasoning verifier); FHIR R4 + HL7 v2 aware with cost-aware diagnostic budget enforcement. | Go · MARA · FHIR R4 · HL7 v2 · SD-Bench |
+| **Genie** | Multi-agent financial assistant bridging LLMs with real-time banking APIs for autonomous advisory, predictive cash-flow analysis, and transaction orchestration. 15 role-specialized agents on Google's [multi-agent reference architecture](https://docs.cloud.google.com/architecture/multiagent-ai-system). | Go · Multi-Agent Reference Architecture · MCP · Vertex AI Agent Engine · PostgreSQL · OpenTelemetry |
+| **Bodh** | Medical AI inspired by Microsoft's [MAI-DxO Sequential Diagnostic Panel](https://microsoft.ai/news/the-path-to-medical-superintelligence/). Virtual physician panel of 7 role-specialized agents (intake, supervisor, questioner, test planner, cost guardian, diagnostician, reasoning verifier); FHIR R4 + HL7 v2 aware with cost-aware diagnostic budget enforcement. | Go · Multi-Agent Reference Architecture · FHIR R4 · HL7 v2 · SD-Bench |
 | **Bancnet** | Open Banking portal for UAE (ADGM/DIFC) and Saudi (SAMA) with consent management, data residency, and RAG semantic search on AlloyDB AI — 37% latency reduction. | Python · Go · FastAPI · RAG · pgvector · AlloyDB AI |
 | **Optimus** | Gemini-powered BigQuery analyzer detecting SQL anti-patterns (full scans, inefficient joins, missing partition filters) and recommending optimizations — delivered 57% cost reduction. | Python · Go · Gemini API · BigQuery |
 | **Kinetic India Voice Assistant** | Conversational voice AI for two-wheeler riders — diagnostics, service booking, and ride telemetry, with ElevenLabs voice synthesis and Gemini-backed dialog management. | Python · Go · ElevenLabs · Gemini |
@@ -107,7 +107,7 @@ AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinT
 
 **Languages** — Go · Python · TypeScript · SQL
 
-**Multi-Agent AI** — Google ADK · MARA · MCP · A2A · LangGraph · LangChain · CrewAI · AutoGen · Genkit · Function Calling · ReAct · LLM-as-Judge · Agent Workflows · Cost-aware Constraints
+**Multi-Agent AI** — Google ADK · Multi-Agent Reference Architecture · MCP · A2A · LangGraph · LangChain · CrewAI · AutoGen · Genkit · Function Calling · ReAct · LLM-as-Judge · Agent Workflows · Cost-aware Constraints
 
 **Healthcare AI** — FHIR R4 · HL7 v2 · MAI-DxO · SD-Bench · Cost-aware Diagnostic Budgets · Clinical Reasoning
 
