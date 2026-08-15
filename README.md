@@ -8,9 +8,9 @@
 
 ## ⭐ Featured open-source contribution
 
-### [Microsoft Agent Framework Go](https://github.com/microsoft/agent-framework-go) — 99 merged PRs · 394★
+### [Microsoft Agent Framework Go](https://github.com/microsoft/agent-framework-go) — 129 merged PRs · 465★
 
-Microsoft's official Go implementation of the Agent Framework. My **99 merged PRs** span runtime correctness across the Anthropic and OpenAI providers, the workflow engine, A2A, and MCP layers — **each shipped with a regression test**. Selected highlights:
+Microsoft's official Go implementation of the Agent Framework. My **129 merged PRs** span runtime correctness across the Anthropic and OpenAI providers, the workflow engine, A2A, and MCP layers — **each shipped with a regression test**. Selected highlights:
 
 - Closed leaked streaming HTTP bodies on the Anthropic / OpenAI-Responses paths — [#718](https://github.com/microsoft/agent-framework-go/pull/718)
 - Released dead references in `concurrent.Queue.Dequeue` — [#598](https://github.com/microsoft/agent-framework-go/pull/598)
@@ -71,7 +71,7 @@ AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinT
 
 ## 🌱 Open source
 
-- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **99 merged PRs** into Microsoft's official Go Agent Framework (394★). See the [featured contribution](#-featured-open-source-contribution) above.
+- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **129 merged PRs** into Microsoft's official Go Agent Framework (465★). See the [featured contribution](#-featured-open-source-contribution) above.
 - [**GoogleCloudPlatform/spanner-migration-tool** (HarbourBridge)](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pulls?q=is%3Apr+author%3Apratikdhanave-searce) — core contributor (as [`pratikdhanave-searce`](https://github.com/pratikdhanave-searce), Searce engagement). Built backend APIs for the Intelligent Schema Assistant, CDC pipelines (Datastream · Pub/Sub · Dataflow), and improved post-migration query performance through PK design, indexing, and table interleaving.
 - [**leopardslab/gocloud**](https://github.com/leopardslab/gocloud) — **13 merged PRs** to a unified API library for managing cloud resources across AWS, GCP, and Azure.
 - [**skycoin/cx**](https://github.com/skycoin/cx) — **17 merged PRs** enhancing the CX interpreter for deterministic blockchain transaction execution; implemented a Pratt parser reducing parsing complexity by ~30%.
