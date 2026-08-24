@@ -22,6 +22,7 @@ Microsoft's official Go implementation of the Agent Framework. My **166 merged P
 
 ## 🎯 What I'm working on right now
 
+- **AI transformation for NESO** (National Energy System Operator) — enterprise AI adoption with a strong focus on **AI governance and compliance**
 - **Multi-agent AI systems** for FinTech (Google ADK · MCP · Multi-Agent Reference Architecture · Vertex AI Agent Engine)
 - **Medical AI** — FHIR R4 + HL7 v2, cost-aware diagnostic budgets, clinical reasoning
 - **RAG & GraphRAG pipelines** on AlloyDB AI, BigQuery Knowledge Graph, and pgvector
@@ -139,7 +140,7 @@ I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](ht
 
 **FinOps** — BigQuery cost optimization · Slot-based capacity planning · Query profiling · Materialized views
 
-**Domain expertise** — FinTech · Open Banking (UAE ADGM/DIFC, Saudi SAMA) · Healthcare Tech · Enterprise AI Adoption
+**Domain expertise** — FinTech · Open Banking (UAE ADGM/DIFC, Saudi SAMA) · Healthcare Tech · Energy & Utilities · Enterprise AI Adoption · AI Governance & Compliance
 
 ---
 
