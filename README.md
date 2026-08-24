@@ -49,13 +49,21 @@ AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinT
 
 ## 📚 Publications & technical articles
 
+I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](https://pratikdhanave.com/blog)** — **50+ series (800+ posts)** across agentic AI, distributed systems, and production engineering, each grounded in primary sources with runnable examples. [Browse all series →](https://pratikdhanave.com/blog/series/)
+
+**Featured series**
+- **[The AI Production Roadmap](https://pratikdhanave.com/blog/series/the-ai-production-roadmap/)** — the 12-phase path from prototype to production AI: governance, evaluation, serving, security, cost
+- **[Distributed Systems from First Principles](https://pratikdhanave.com/blog/series/distributed-systems-from-first-principles/)** — consistency models, CAP/PACELC, replication, consensus (Raft), resilience
+- **[LLM Inference & Serving](https://pratikdhanave.com/blog/series/llm-inference-and-serving/)** — the KV cache, continuous batching, quantization, speculative decoding, vLLM/PagedAttention
+- **[The AI Cost Optimization Playbook](https://pratikdhanave.com/blog/series/the-ai-cost-optimization-playbook/)** — the ranked inference cost levers, vendor-grounded and measured
+
+**Deep dives**
 - **Multi-Agent Systems Architecture** — hierarchical coordination patterns, function calling, cost-aware decision trees, observability & cost tracking
 [https://pratikdhanave.com/blog/posts/adk-03-multi-agent-systems.html](https://pratikdhanave.com/blog/posts/adk-03-multi-agent-systems.html)
 - **BigQuery FinOps: 57% Cost Reduction at Scale** — query refactoring, materialized views, MERGE optimization, slot-based capacity planning
 [https://pratikdhanave.com/blog/posts/57-percent-bigquery-cost-reduction-tata.html](https://pratikdhanave.com/blog/posts/57-percent-bigquery-cost-reduction-tata.html)
 - **FHIR R4 + HL7 v2 Medical AI Interoperability** — Bodh architecture, cost-aware diagnostic budgets, HIPAA compliance patterns
 [https://pratikdhanave.com/blog/posts/hl7v2-still-matters.html](https://pratikdhanave.com/blog/posts/hl7v2-still-matters.html)
-
 ---
 
 ## 🏆 Recognition
@@ -137,10 +145,9 @@ AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinT
 
 ## ✍️ I write about
 
-Multi-Agent AI · Google ADK · MCP · Agentic Commerce · BigQuery Graph · LLM determinism · Genkit middleware · and the production realities of building reliable AI systems on Google Cloud.
+Multi-Agent AI · Google ADK · MCP · A2A · Agentic RAG · LLM inference & serving · fine-tuning · vector search internals · distributed systems · database internals · web identity (OAuth/OIDC/SAML) · observability · computer networking · RegTech & compliance · AI cost optimization · on-device AI · the agent-framework landscape (LangChain, LangGraph, CrewAI, Pydantic AI, Strands, smolagents, LlamaIndex) · and the Go, Python, and Rust language curricula — with a focus on the production realities of building reliable AI systems.
 
 📖 Follow my posts on [LinkedIn](https://www.linkedin.com/in/pratikdhanave) (2,750+ followers).
-
 ---
 
 ## 🎓 Certifications
