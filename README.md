@@ -2,7 +2,7 @@
 
 **AI Architect** · Pune, India
 
-7+ years building cloud-native, distributed systems in **Go**, **Python**, and **TypeScript** on **GCP**, **AWS**, and **Azure**. I specialize in **Agentic AI systems** and **multi-agent orchestration**, healthcare AI, microservices, gRPC / GraphQL APIs, and FinOps — bridging LLMs with real-time enterprise systems (Google ADK, MCP, Microsoft Agent Framework, Multi-Agent Reference Architecture, Vertex AI Agent Engine, LangChain, LangGraph, CrewAI).
+7+ years building cloud-native, distributed systems in **Go**, **Python**, and **TypeScript** on **GCP**, **AWS**, and **Azure**. I specialize in **Agentic AI systems** and **multi-agent orchestration**, **AI governance and compliance**, healthcare AI, microservices, gRPC / GraphQL APIs, and FinOps — bridging LLMs with real-time enterprise systems across **FinTech, healthcare, and energy** (Google ADK, MCP, Microsoft Agent Framework, Multi-Agent Reference Architecture, Vertex AI Agent Engine, LangChain, LangGraph, CrewAI).
 
 ---
 
