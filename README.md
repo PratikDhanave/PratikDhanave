@@ -115,11 +115,11 @@ I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](ht
 
 **Languages** — Go · Python · TypeScript · SQL
 
-**Multi-Agent AI** — Google ADK · Multi-Agent Reference Architecture · MCP · A2A · LangGraph · LangChain · CrewAI · AutoGen · Genkit · Function Calling · ReAct · LLM-as-Judge · Agent Workflows · Cost-aware Constraints
+**Multi-Agent AI** — Google ADK · Microsoft Agent Framework · Multi-Agent Reference Architecture · MCP · A2A · LangGraph · LangChain · CrewAI · AutoGen · Pydantic AI · AWS Strands · smolagents · Genkit · Function Calling · ReAct · LLM-as-Judge · Agent Workflows · Cost-aware Constraints
 
 **Healthcare AI** — FHIR R4 · HL7 v2 · MAI-DxO · SD-Bench · Cost-aware Diagnostic Budgets · Clinical Reasoning
 
-**GenAI / ML** — Vertex AI Agent Engine · RAG · GraphRAG · BigQuery Knowledge Graph · Voice AI (ElevenLabs) · LangSmith · OpenAI · Anthropic Claude · Google Gemini · AWS Bedrock · Hugging Face · Ollama · MLOps · LLMOps
+**GenAI / ML** — Vertex AI Agent Engine · RAG · GraphRAG · LlamaIndex · BigQuery Knowledge Graph · Voice AI (ElevenLabs) · LangSmith · OpenAI · Anthropic Claude · Google Gemini · AWS Bedrock · Hugging Face · Ollama · MLOps · LLMOps
 
 **Cloud platforms** — GCP (Vertex AI Agent Engine, BigQuery, Cloud Spanner, Cloud Run, Dataflow, Datastream) · AWS (EC2, EKS, Lambda, Bedrock) · Azure (App Service, Cosmos DB, AI Search)
 
