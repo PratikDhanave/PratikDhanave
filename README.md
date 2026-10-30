@@ -8,9 +8,9 @@
 
 ## ⭐ Featured open-source contribution
 
-### [Microsoft Agent Framework Go](https://github.com/microsoft/agent-framework-go) — 220+ merged PRs · 638★
+### [Microsoft Agent Framework Go](https://github.com/microsoft/agent-framework-go) — 228 merged PRs · 658★
 
-Microsoft's official Go implementation of the Agent Framework. My **220+ merged PRs** span runtime correctness across the Anthropic and OpenAI providers, the workflow engine, A2A, and MCP layers — **each shipped with a regression test**. Selected highlights:
+Microsoft's official Go implementation of the Agent Framework. My **228 merged PRs** span runtime correctness across the Anthropic and OpenAI providers, the workflow engine, A2A, and MCP layers — **each shipped with a regression test**. Selected highlights:
 
 - Closed leaked streaming HTTP bodies on the Anthropic / OpenAI-Responses paths — [#718](https://github.com/microsoft/agent-framework-go/pull/718)
 - Released dead references in `concurrent.Queue.Dequeue` — [#598](https://github.com/microsoft/agent-framework-go/pull/598)
@@ -50,7 +50,7 @@ AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinT
 
 ## 📚 Publications & technical articles
 
-I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](https://pratikdhanave.com/blog)** — **90+ series (1,200+ posts)** across agentic AI, distributed systems, and production engineering, each grounded in primary sources with runnable examples. [Browse all series →](https://pratikdhanave.com/blog/series/)
+I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](https://pratikdhanave.com/blog)** — **110+ series (1,280+ posts)** across agentic AI, distributed systems, and production engineering, each grounded in primary sources with runnable examples. [Browse all series →](https://pratikdhanave.com/blog/series/)
 
 **Featured series**
 - **[The AI Production Roadmap](https://pratikdhanave.com/blog/series/the-ai-production-roadmap/)** — the 12-phase path from prototype to production AI: governance, evaluation, serving, security, cost
@@ -80,7 +80,7 @@ I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](ht
 
 ## 🌱 Open source
 
-- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **220+ merged PRs** into Microsoft's official Go Agent Framework (638★). See the [featured contribution](#-featured-open-source-contribution) above.
+- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **228 merged PRs** into Microsoft's official Go Agent Framework (658★). See the [featured contribution](#-featured-open-source-contribution) above.
 - [**GoogleCloudPlatform/spanner-migration-tool** (HarbourBridge)](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pulls?q=is%3Apr+author%3Apratikdhanave-searce) — core contributor (as [`pratikdhanave-searce`](https://github.com/pratikdhanave-searce), Searce engagement). Built backend APIs for the Intelligent Schema Assistant, CDC pipelines (Datastream · Pub/Sub · Dataflow), and improved post-migration query performance through PK design, indexing, and table interleaving.
 - [**leopardslab/gocloud**](https://github.com/leopardslab/gocloud) — **13 merged PRs** to a unified API library for managing cloud resources across AWS, GCP, and Azure.
 - [**skycoin/cx**](https://github.com/skycoin/cx) — **17 merged PRs** enhancing the CX interpreter for deterministic blockchain transaction execution; implemented a Pratt parser reducing parsing complexity by ~30%.
