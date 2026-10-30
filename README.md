@@ -6,7 +6,9 @@
 
 ---
 
-## ⭐ Featured open-source contribution
+## ⭐ Featured open-source contributions
+
+Merged correctness, concurrency, and security fixes into the **official agent frameworks of Microsoft and Google and the Model Context Protocol standard** — the core building blocks of the AI-agent ecosystem (20k+ combined stars). Not demos or forks: code landed in `main`, each with a regression test.
 
 ### [Microsoft Agent Framework Go](https://github.com/microsoft/agent-framework-go) — 228 merged PRs · 658★
 
@@ -17,6 +19,28 @@ Microsoft's official Go implementation of the Agent Framework. My **228 merged P
 - Fixed empty responses in the structured-output middleware — [#607](https://github.com/microsoft/agent-framework-go/pull/607)
 - Fixed a nil-update panic in the tool-approval middleware — [#472](https://github.com/microsoft/agent-framework-go/pull/472)
 - Removed a dead `PortableValue` guard in the workflow route builder — [#489](https://github.com/microsoft/agent-framework-go/pull/489)
+
+### [Google ADK (Go)](https://github.com/google/adk-go) — 12 merged PRs · 8.9k★
+
+Google's **official Agent Development Kit** for Go. Runtime-correctness fixes of the same character as my Microsoft work:
+
+- Guarded a nil first candidate in the streaming response aggregator — [#1802](https://github.com/google/adk-go/pull/1802)
+- Honored `MaxConcurrentRuns` in the Pub/Sub controller — [#1720](https://github.com/google/adk-go/pull/1720)
+- Maintained session-state `UpdateTime` on app/user state writes — [#1204](https://github.com/google/adk-go/pull/1204)
+
+### [MCP Go SDK](https://github.com/modelcontextprotocol/go-sdk) — 8 merged PRs · 5.3k★
+
+The **official Go SDK for the Model Context Protocol** — the industry standard for connecting AI agents to tools and data.
+
+- Prevented a `MemoryEventStore.After` panic on an index past the end — [#1132](https://github.com/modelcontextprotocol/go-sdk/pull/1132)
+- Fixed the JSON-RPC response summary to use `%v` and `ID.Raw()` — [#1382](https://github.com/modelcontextprotocol/go-sdk/pull/1382)
+
+### [Microsoft Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) — 6.5k★
+
+A **second official Microsoft repo** — agent security and governance. Merged security fixes, with further hardening in review:
+
+- Enforced the configured sandbox execution timeout in the Docker provider — [#3567](https://github.com/microsoft/agent-governance-toolkit/pull/3567)
+- Added opt-in PII redaction to the credential redactor — [#3565](https://github.com/microsoft/agent-governance-toolkit/pull/3565)
 
 ---
 
@@ -80,7 +104,10 @@ I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](ht
 
 ## 🌱 Open source
 
-- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **228 merged PRs** into Microsoft's official Go Agent Framework (658★). See the [featured contribution](#-featured-open-source-contribution) above.
+- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **228 merged PRs** into Microsoft's official Go Agent Framework (658★). See the [featured contributions](#-featured-open-source-contributions) above.
+- [**Google ADK (Go)**](https://github.com/google/adk-go) — **12 merged PRs** into Google's official Agent Development Kit for Go (8.9k★) — nil-guards, concurrency, and session-state correctness.
+- [**MCP Go SDK**](https://github.com/modelcontextprotocol/go-sdk) — **8 merged PRs** into the official Go SDK for the Model Context Protocol (5.3k★) — panic prevention and JSON-RPC correctness.
+- [**Microsoft Agent Governance Toolkit**](https://github.com/microsoft/agent-governance-toolkit) — merged agent-security fixes (sandbox timeout enforcement, PII redaction) into a second official Microsoft repo (6.5k★).
 - [**GoogleCloudPlatform/spanner-migration-tool** (HarbourBridge)](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pulls?q=is%3Apr+author%3Apratikdhanave-searce) — core contributor (as [`pratikdhanave-searce`](https://github.com/pratikdhanave-searce), Searce engagement). Built backend APIs for the Intelligent Schema Assistant, CDC pipelines (Datastream · Pub/Sub · Dataflow), and improved post-migration query performance through PK design, indexing, and table interleaving.
 - [**leopardslab/gocloud**](https://github.com/leopardslab/gocloud) — **13 merged PRs** to a unified API library for managing cloud resources across AWS, GCP, and Azure.
 - [**skycoin/cx**](https://github.com/skycoin/cx) — **17 merged PRs** enhancing the CX interpreter for deterministic blockchain transaction execution; implemented a Pratt parser reducing parsing complexity by ~30%.
