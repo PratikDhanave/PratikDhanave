@@ -10,9 +10,9 @@
 
 Merged correctness, concurrency, and security fixes into the **official agent frameworks of Microsoft and Google and the Model Context Protocol standard** — the core building blocks of the AI-agent ecosystem (20k+ combined stars). Not demos or forks: code landed in `main`, each with a regression test.
 
-### [Microsoft Agent Framework Go](https://github.com/microsoft/agent-framework-go) — 228 merged PRs · 658★
+### [Microsoft Agent Framework Go](https://github.com/microsoft/agent-framework-go) — 233 merged PRs · 672★
 
-Microsoft's official Go implementation of the Agent Framework. My **228 merged PRs** span runtime correctness across the Anthropic and OpenAI providers, the workflow engine, A2A, and MCP layers — **each shipped with a regression test**. Selected highlights:
+Microsoft's official Go implementation of the Agent Framework. My **233 merged PRs** span runtime correctness across the Anthropic and OpenAI providers, the workflow engine, A2A, and MCP layers — **each shipped with a regression test**. Selected highlights:
 
 - Closed leaked streaming HTTP bodies on the Anthropic / OpenAI-Responses paths — [#718](https://github.com/microsoft/agent-framework-go/pull/718)
 - Released dead references in `concurrent.Queue.Dequeue` — [#598](https://github.com/microsoft/agent-framework-go/pull/598)
@@ -74,7 +74,7 @@ AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinT
 
 ## 📚 Publications & technical articles
 
-I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](https://pratikdhanave.com/blog)** — **110+ series (1,280+ posts)** across agentic AI, distributed systems, and production engineering, each grounded in primary sources with runnable examples. [Browse all series →](https://pratikdhanave.com/blog/series/)
+I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](https://pratikdhanave.com/blog)** — **115+ series (1,310+ posts)** across agentic AI, distributed systems, and production engineering, each grounded in primary sources with runnable examples. [Browse all series →](https://pratikdhanave.com/blog/series/)
 
 **Featured series**
 - **[The AI Production Roadmap](https://pratikdhanave.com/blog/series/the-ai-production-roadmap/)** — the 12-phase path from prototype to production AI: governance, evaluation, serving, security, cost
@@ -104,7 +104,7 @@ I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](ht
 
 ## 🌱 Open source
 
-- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **228 merged PRs** into Microsoft's official Go Agent Framework (658★). See the [featured contributions](#-featured-open-source-contributions) above.
+- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **233 merged PRs** into Microsoft's official Go Agent Framework (672★). See the [featured contributions](#-featured-open-source-contributions) above.
 - [**Google ADK (Go)**](https://github.com/google/adk-go) — **12 merged PRs** into Google's official Agent Development Kit for Go (8.9k★) — nil-guards, concurrency, and session-state correctness.
 - [**MCP Go SDK**](https://github.com/modelcontextprotocol/go-sdk) — **8 merged PRs** into the official Go SDK for the Model Context Protocol (5.3k★) — panic prevention and JSON-RPC correctness.
 - [**Microsoft Agent Governance Toolkit**](https://github.com/microsoft/agent-governance-toolkit) — merged agent-security fixes (sandbox timeout enforcement, PII redaction) into a second official Microsoft repo (6.5k★).
