@@ -1,6 +1,6 @@
 # Hi, I'm Pratik 👋
 
-**AI Architect** · Pune, India
+**AI Architect & Forward Deployed Engineer** · Pune, India
 
 7+ years building cloud-native, distributed systems in **Go**, **Python**, and **TypeScript** on **GCP**, **AWS**, and **Azure**. I specialize in **Agentic AI systems** and **multi-agent orchestration**, **AI governance and compliance**, healthcare AI, microservices, gRPC / GraphQL APIs, and FinOps — bridging LLMs with real-time enterprise systems across **FinTech, healthcare, and energy** (Google ADK, MCP, Microsoft Agent Framework, Multi-Agent Reference Architecture, Vertex AI Agent Engine, LangChain, LangGraph, CrewAI).
 
@@ -54,6 +54,7 @@ Correctness and crash fixes across the schema conversion pipeline of Google Clou
 
 ## 🎯 What I'm working on right now
 
+- **Consulting** — forward deployed engineering for AI teams: [production readiness audits](https://pratikdhanave.com/services/ai-production-readiness-audit/), [POC-to-production rescues](https://pratikdhanave.com/services/poc-to-production-rescue/), and [fractional embedded engagements](https://pratikdhanave.com/services/fractional-fde/)
 - **AI transformation for NESO** (National Energy System Operator) — enterprise AI adoption with a strong focus on **AI governance and compliance**
 - **Multi-agent AI systems** for FinTech (Google ADK · MCP · Multi-Agent Reference Architecture · Vertex AI Agent Engine)
 - **Medical AI** — FHIR R4 + HL7 v2, cost-aware diagnostic budgets, clinical reasoning
@@ -66,7 +67,7 @@ Correctness and crash fixes across the schema conversion pipeline of Google Clou
 
 ## 📍 Open to
 
-AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinTech, Healthcare Tech, GenAI Infrastructure, and Open Banking** — Bengaluru, Pune, Mumbai, Hyderabad, Remote, EMEA, UAE.
+Consulting engagements (fractional forward deployed engineer, audits, POC rescues — [services](https://pratikdhanave.com/services/)) · AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinTech, Healthcare Tech, GenAI Infrastructure, and Open Banking** — Bengaluru, Pune, Mumbai, Hyderabad, Remote, EMEA, UAE.
 
 ---
 
@@ -82,13 +83,15 @@ AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinT
 
 ## 📚 Publications & technical articles
 
-I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](https://pratikdhanave.com/blog)** — **115+ series (1,310+ posts)** across agentic AI, distributed systems, and production engineering, each grounded in primary sources with runnable examples. [Browse all series →](https://pratikdhanave.com/blog/series/)
+I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](https://pratikdhanave.com/blog)** — **118+ series (1,320+ posts)** across agentic AI, distributed systems, and production engineering, each grounded in primary sources with runnable examples. [Browse all series →](https://pratikdhanave.com/blog/series/)
 
 **Featured series**
 - **[The AI Production Roadmap](https://pratikdhanave.com/blog/series/the-ai-production-roadmap/)** — the 12-phase path from prototype to production AI: governance, evaluation, serving, security, cost
 - **[Distributed Systems from First Principles](https://pratikdhanave.com/blog/series/distributed-systems-from-first-principles/)** — consistency models, CAP/PACELC, replication, consensus (Raft), resilience
 - **[LLM Inference & Serving](https://pratikdhanave.com/blog/series/llm-inference-and-serving/)** — the KV cache, continuous batching, quantization, speculative decoding, vLLM/PagedAttention
 - **[The AI Cost Optimization Playbook](https://pratikdhanave.com/blog/series/the-ai-cost-optimization-playbook/)** — the ranked inference cost levers, vendor-grounded and measured
+- **[Adopting AI in the Enterprise](https://pratikdhanave.com/blog/series/adopting-ai-in-the-enterprise/)** — the organizational playbook for crossing pilot-to-production: use cases, readiness, agentic orchestration, scale, security, change
+- **[Agent Memory Systems](https://pratikdhanave.com/blog/series/agent-memory-systems/)** — how agents remember, learn, and forget: the memory hierarchy, compaction, retrieval, consolidation, production memory
 
 **Deep dives**
 - **Multi-Agent Systems Architecture** — hierarchical coordination patterns, function calling, cost-aware decision trees, observability & cost tracking
@@ -182,7 +185,7 @@ I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](ht
 
 ## ✍️ I write about
 
-Multi-Agent AI · Google ADK · MCP · A2A · Agentic RAG · LLM inference & serving · fine-tuning · vector search internals · distributed systems · database internals · web identity (OAuth/OIDC/SAML) · observability · computer networking · RegTech & compliance · AI cost optimization · on-device AI · the agent-framework landscape (LangChain, LangGraph, CrewAI, Pydantic AI, Strands, smolagents, LlamaIndex) · and the Go, Python, and Rust language curricula — with a focus on the production realities of building reliable AI systems.
+Multi-Agent AI · agent memory · enterprise AI adoption · Google ADK · MCP · A2A · Agentic RAG · diffusion & generative media · LLM inference & serving · fine-tuning · vector search internals · distributed systems · database internals · web identity (OAuth/OIDC/SAML) · observability · computer networking · RegTech & compliance · AI cost optimization · on-device AI · the agent-framework landscape (LangChain, LangGraph, CrewAI, Pydantic AI, Strands, smolagents, LlamaIndex) · and the Go, Python, and Rust language curricula — with a focus on the production realities of building reliable AI systems.
 
 📖 Follow my posts on [LinkedIn](https://www.linkedin.com/in/pratikdhanave) (2,750+ followers).
 ---
@@ -208,4 +211,4 @@ Multi-Agent AI · Google ADK · MCP · A2A · Agentic RAG · LLM inference & ser
 
 > *Looking for senior engineering talent with deep backend + GenAI + multi-region compliance experience? Let's talk.*
 
-<sub>Last updated: October 2026 · Built with care, not with templates.</sub>
+<sub>Last updated: November 2026 · Built with care, not with templates.</sub>
