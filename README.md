@@ -8,11 +8,11 @@
 
 ## ⭐ Featured open-source contributions
 
-Merged correctness, concurrency, and security fixes into the **official agent frameworks of Microsoft and Google and the Model Context Protocol standard** — the core building blocks of the AI-agent ecosystem (20k+ combined stars). Not demos or forks: code landed in `main`, each with a regression test.
+Merged correctness, concurrency, and security fixes into the **official agent frameworks of Microsoft and Google and the Model Context Protocol standard** — plus first merges into official **Apple** and **AWS** repos — the core building blocks of the AI-agent ecosystem (20k+ combined stars). Not demos or forks: code landed in `main`, each with a regression test.
 
-### [Microsoft Agent Framework Go](https://github.com/microsoft/agent-framework-go) — 233 merged PRs · 672★
+### [Microsoft Agent Framework Go](https://github.com/microsoft/agent-framework-go) — 234 merged PRs · 672★
 
-Microsoft's official Go implementation of the Agent Framework. My **233 merged PRs** span runtime correctness across the Anthropic and OpenAI providers, the workflow engine, A2A, and MCP layers — **each shipped with a regression test**. Selected highlights:
+Microsoft's official Go implementation of the Agent Framework. My **234 merged PRs** span runtime correctness across the Anthropic and OpenAI providers, the workflow engine, A2A, and MCP layers — **each shipped with a regression test**. Selected highlights:
 
 - Closed leaked streaming HTTP bodies on the Anthropic / OpenAI-Responses paths — [#718](https://github.com/microsoft/agent-framework-go/pull/718)
 - Released dead references in `concurrent.Queue.Dequeue` — [#598](https://github.com/microsoft/agent-framework-go/pull/598)
@@ -115,13 +115,14 @@ I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](ht
 
 ## 🌱 Open source
 
-- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **233 merged PRs** into Microsoft's official Go Agent Framework (672★). See the [featured contributions](#-featured-open-source-contributions) above.
+- [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **234 merged PRs** into Microsoft's official Go Agent Framework (672★). See the [featured contributions](#-featured-open-source-contributions) above.
 - [**Google ADK (Go)**](https://github.com/google/adk-go) — **17 merged PRs** into Google's official Agent Development Kit for Go (8.9k★) — nil-guards, concurrency, and session-state correctness.
 - [**MCP Go SDK**](https://github.com/modelcontextprotocol/go-sdk) — **8 merged PRs** into the official Go SDK for the Model Context Protocol (5.3k★) — panic prevention and JSON-RPC correctness.
 - [**Microsoft Agent Governance Toolkit**](https://github.com/microsoft/agent-governance-toolkit) — merged agent-security fixes (sandbox timeout enforcement, PII redaction) into a second official Microsoft repo (6.5k★).
 - [**Google Cloud Spanner Migration Tool**](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pulls?q=is%3Apr+author%3APratikDhanave) — **12 upstream fixes in review** across the schema-conversion pipeline of Google Cloud's official migration tool: panic guards, GoogleSQL index correctness, error-message accuracy.
 - [**GoogleCloudPlatform/spanner-migration-tool** (HarbourBridge)](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pulls?q=is%3Apr+author%3Apratikdhanave-searce) — core contributor (as [`pratikdhanave-searce`](https://github.com/pratikdhanave-searce), Searce engagement). Built backend APIs for the Intelligent Schema Assistant, CDC pipelines (Datastream · Pub/Sub · Dataflow), and improved post-migration query performance through PK design, indexing, and table interleaving.
 - [**leopardslab/gocloud**](https://github.com/leopardslab/gocloud) — **13 merged PRs** to a unified API library for managing cloud resources across AWS, GCP, and Azure.
+- **New upstream merges (Nov 2026)** — first merged fixes into official **Apple** ([coreai-models #503](https://github.com/apple/coreai-models/pull/503), deterministic preset ordering), **AWS** ([aws-durable-execution-sdk-go #154](https://github.com/aws/aws-durable-execution-sdk-go/pull/154), O(n) telemetry re-render fix), and two more **Microsoft** repos ([agent-framework #10105](https://github.com/microsoft/agent-framework/pull/10105), [scope docs fixes](https://github.com/microsoft/scope/pulls?q=is%3Apr+author%3APratikDhanave)).
 - [**skycoin/cx**](https://github.com/skycoin/cx) — **17 merged PRs** enhancing the CX interpreter for deterministic blockchain transaction execution; implemented a Pratt parser reducing parsing complexity by ~30%.
 
 ---
