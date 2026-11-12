@@ -20,7 +20,7 @@ Microsoft's official Go implementation of the Agent Framework. My **233 merged P
 - Fixed a nil-update panic in the tool-approval middleware — [#472](https://github.com/microsoft/agent-framework-go/pull/472)
 - Removed a dead `PortableValue` guard in the workflow route builder — [#489](https://github.com/microsoft/agent-framework-go/pull/489)
 
-### [Google ADK (Go)](https://github.com/google/adk-go) — 12 merged PRs · 8.9k★
+### [Google ADK (Go)](https://github.com/google/adk-go) — 17 merged PRs · 8.9k★
 
 Google's **official Agent Development Kit** for Go. Runtime-correctness fixes of the same character as my Microsoft work:
 
@@ -41,6 +41,14 @@ A **second official Microsoft repo** — agent security and governance. Merged s
 
 - Enforced the configured sandbox execution timeout in the Docker provider — [#3567](https://github.com/microsoft/agent-governance-toolkit/pull/3567)
 - Added opt-in PII redaction to the credential redactor — [#3565](https://github.com/microsoft/agent-governance-toolkit/pull/3565)
+
+### [Google Cloud Spanner Migration Tool](https://github.com/GoogleCloudPlatform/spanner-migration-tool) — 12 upstream fixes in review
+
+Correctness and crash fixes across the schema conversion pipeline of Google Cloud's official Spanner migration tool:
+
+- Preserved the  flag when converting GoogleSQL indexes — [#1422](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pull/1422)
+- Fixed a nil-pointer panic on `nextval()` with a bare string argument — [#1467](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pull/1467)
+- Keyed ALTER TABLE unique indexes by column ID instead of name — [#1426](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pull/1426)
 
 ---
 
@@ -105,9 +113,10 @@ I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](ht
 ## 🌱 Open source
 
 - [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) — **233 merged PRs** into Microsoft's official Go Agent Framework (672★). See the [featured contributions](#-featured-open-source-contributions) above.
-- [**Google ADK (Go)**](https://github.com/google/adk-go) — **12 merged PRs** into Google's official Agent Development Kit for Go (8.9k★) — nil-guards, concurrency, and session-state correctness.
+- [**Google ADK (Go)**](https://github.com/google/adk-go) — **17 merged PRs** into Google's official Agent Development Kit for Go (8.9k★) — nil-guards, concurrency, and session-state correctness.
 - [**MCP Go SDK**](https://github.com/modelcontextprotocol/go-sdk) — **8 merged PRs** into the official Go SDK for the Model Context Protocol (5.3k★) — panic prevention and JSON-RPC correctness.
 - [**Microsoft Agent Governance Toolkit**](https://github.com/microsoft/agent-governance-toolkit) — merged agent-security fixes (sandbox timeout enforcement, PII redaction) into a second official Microsoft repo (6.5k★).
+- [**Google Cloud Spanner Migration Tool**](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pulls?q=is%3Apr+author%3APratikDhanave) — **12 upstream fixes in review** across the schema-conversion pipeline of Google Cloud's official migration tool: panic guards, GoogleSQL index correctness, error-message accuracy.
 - [**GoogleCloudPlatform/spanner-migration-tool** (HarbourBridge)](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pulls?q=is%3Apr+author%3Apratikdhanave-searce) — core contributor (as [`pratikdhanave-searce`](https://github.com/pratikdhanave-searce), Searce engagement). Built backend APIs for the Intelligent Schema Assistant, CDC pipelines (Datastream · Pub/Sub · Dataflow), and improved post-migration query performance through PK design, indexing, and table interleaving.
 - [**leopardslab/gocloud**](https://github.com/leopardslab/gocloud) — **13 merged PRs** to a unified API library for managing cloud resources across AWS, GCP, and Azure.
 - [**skycoin/cx**](https://github.com/skycoin/cx) — **17 merged PRs** enhancing the CX interpreter for deterministic blockchain transaction execution; implemented a Pratt parser reducing parsing complexity by ~30%.
