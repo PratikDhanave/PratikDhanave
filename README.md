@@ -46,7 +46,7 @@ A **second official Microsoft repo** — agent security and governance. Merged s
 
 Correctness and crash fixes across the schema conversion pipeline of Google Cloud's official Spanner migration tool:
 
-- Preserved the  flag when converting GoogleSQL indexes — [#1422](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pull/1422)
+- Preserved the `UNIQUE` flag when converting GoogleSQL indexes — [#1422](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pull/1422)
 - Fixed a nil-pointer panic on `nextval()` with a bare string argument — [#1467](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pull/1467)
 - Keyed ALTER TABLE unique indexes by column ID instead of name — [#1426](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pull/1426)
 
