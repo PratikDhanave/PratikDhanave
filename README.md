@@ -1,25 +1,42 @@
 # Hi, I'm Pratik 👋
 
-**AI Architect ** · Pune, India
+**AI Architect** · Pune, India
 
-[Portfolio](https://pratikdhanave.com) · [Consulting](https://pratikdhanave.com/services/) · [Blog (1,320+ posts)](https://pratikdhanave.com/blog) · [LinkedIn](https://www.linkedin.com/in/pratikdhanave) · [Book a call](https://calendar.app.google/x7W5bAdst4J6MT2u7) · [Email](mailto:i.pratikdhanave@gmail.com)
+[Genie (60+ Agents)](https://github.com/c2siorg/genie) · [Portfolio](https://pratikdhanave.com) · [Consulting](https://pratikdhanave.com/services/) · [Blog (1,320+ posts)](https://pratikdhanave.com/blog) · [LinkedIn](https://www.linkedin.com/in/pratikdhanave) · [Book a call](https://calendar.app.google/x7W5bAdst4J6MT2u7) · [Email](mailto:i.pratikdhanave@gmail.com)
 
-**Most AI teams assemble agent frameworks. I harden the runtimes they depend on — upstream in Microsoft, Google, MCP, Apple, and AWS — and take regulated enterprise AI from fragile POCs to governed production.**
+**Creator & lead architect of [Genie](https://github.com/c2siorg/genie) — an open-source, 60+ agent regulated financial AI platform in Go — and upstream contributor hardening the official agent runtimes of Microsoft, Google, MCP, Apple, and AWS.**
 
-7+ years architecting cloud-native, distributed systems in **Go**, **Python**, and **TypeScript** on **GCP**, **AWS**, and **Azure** across **FinTech, healthcare, and critical energy infrastructure** — specializing in **Agentic AI & multi-agent orchestration**, **AI governance & compliance** (RBI FREE-AI, EU AI Act, ADGM/DIFC/SAMA, HIPAA, SOC 2), microservices, gRPC / GraphQL APIs, and cloud FinOps (Google ADK, MCP, Microsoft Agent Framework, Multi-Agent Reference Architecture, Vertex AI Agent Engine, LangChain, LangGraph, CrewAI).
+7+ years architecting cloud-native, distributed systems in **Go**, **Python**, and **TypeScript** on **GCP**, **AWS**, and **Azure** across **FinTech, healthcare, and critical energy infrastructure** — specializing in **Agentic AI & multi-agent orchestration**, **AI governance & compliance** (RBI FREE-AI, EU AI Act, ADGM/DIFC/SAMA, HIPAA, SOC 2), microservices, gRPC / GraphQL APIs, and cloud FinOps.
 
-| Upstream Runtime Authority | Commercial FinOps Impact | Mission-Critical Scale | Published Authority |
+| Flagship Open-Source Platform | Upstream Runtime Authority | Commercial Scale & FinOps | Published Authority |
 |---|---|---|---|
-| **350+ merged upstream PRs** across **63k+★** repos (Microsoft, Google, MCP, Apple, AWS) | **₹100 Cr+ (~$12M)** saved (**57%** BigQuery cut, productized) | **30K+ TPS** & **1M+ users** (**47%** latency cut) | **118+ series (1,320+ posts)** · Google Next & FDE Speaker · 8-yr GSoC |
+| [**Genie**](https://github.com/c2siorg/genie): **60+ Go agents** · MARA · **11-layer governance** · RBI FREE-AI | **350+ merged upstream PRs** across **63k+★** repos (Microsoft, Google, MCP, Apple, AWS) | **₹100 Cr+ (~$12M)** FinOps saved (**57%** cut) · **30K+ TPS** · **1M+ users** | **118+ series (1,320+ posts)** · Google Next & FDE Speaker · 8-yr GSoC |
+
+---
+
+## 🧞 Flagship project — [Genie](https://github.com/c2siorg/genie)
+
+Open-source **AI financial assistant platform in Go 1.25+**, built on Microsoft's [Multi-Agent Reference Architecture (MARA)](https://microsoft.github.io/multi-agent-reference-architecture/index.html) and aligned end-to-end with the **RBI FREE-AI** framework (7 Sutras · 6 Pillars · 17/17 Regulated Entity controls). Genie is the live reference codebase behind my [FDExHyderabad talk (*Build for RBI, Inherit the EU AI Act*)](https://build-for-rbi-talk.vercel.app) — every step is a message on a bus, every message passes through composite governance, and every hop is traced.
+
+> Quick links: [Repository](https://github.com/c2siorg/genie) · [Architecture](https://github.com/c2siorg/genie/blob/HEAD/docs/architecture.md) · [11-Layer AI Governance & Security](https://github.com/c2siorg/genie/blob/HEAD/docs/ai-governance-security.md) · [RBI FREE-AI Mapping](https://github.com/c2siorg/genie/blob/HEAD/docs/free-ai-mapping.md) · [60+ Agents Catalog](https://github.com/c2siorg/genie/blob/HEAD/docs/agents/README.md)
+
+| Layer | What Genie ships in production-shaped Go |
+|---|---|
+| **60+ Specialist Agents** | Retail finance, SME lending, RBI KYC, bancassurance, fraud, treasury, UPI/IMPS/NEFT/RTGS payment routing, cyber anomaly detection, vision receipt OCR, Bhashini-shaped voice, Zerodha Kite MCP, Sahamati AA — with Supervisor, Hierarchical, Mixture-of-Agents, ReAct, Reflexion & fallback topologies |
+| **11-Layer Governance & Compliance** | Composite policy gate (`pkg/governance`: RBAC, classification, data residency, consent, PII, prompt injection, schema, explainability), board-approved YAML + CEL-style Policy-as-Code DSL (`pkg/policy/dsl`), 7-Sutra constitution, tamper-evident audit chain, graded liability, Annexure VI incident reporting, CycloneDX 1.6 AIBOM + Ed25519/Sigstore signing |
+| **Protocols & Sovereign AI** | **MCP** client + server (JSON-RPC streamable HTTP), **A2A** client + server, CloudEvents 1.0 + AsyncAPI; **on-prem Ollama** by default alongside Anthropic, Gemini & OpenAI with cost, cache, router, shadow, circuit-breaker & budget wrappers |
+| **Retrieval, Memory & Evals** | Hybrid RAG, Self-RAG, CRAG, GraphRAG & pgvector; semantic, episodic & consolidated long-term memory; DAG + Saga + HITL workflows; RAGAS, CheckList, drift, hallucination & Elo evals + red-team harness |
+| **Security, Privacy & Observability** | Envelope AES-256-GCM + KMS, HMAC tokenisation, Laplace/Gaussian Differential Privacy, Federated Learning (FedAvg + secret sharing), OAuth 2.1 + WebAuthn + W3C DIDs/VCs; OpenTelemetry + OpenInference + Tempo/Grafana + BigQuery/Snowflake sink |
 
 ---
 
 ## ⭐ Open-source contributions
 
-**351 merged external upstream PRs** across **63.5k+ combined stars** — including **274 merged PRs across 12 official Microsoft, Google, MCP, Apple, and AWS repositories** (from **Microsoft Agent Framework Go** and **Google ADK** to **Google Research `timesfm`**, **MCP Go SDK**, **Apple `coreai-models`**, and **AWS**). Not demos or forks: production correctness, concurrency, and security fixes landed in `main`, each with a regression test.
+**351 merged external upstream PRs** across **63.5k+ combined stars** — including **274 merged PRs across 12 official Microsoft, Google, MCP, Apple, and AWS repositories** plus **11 major platform PRs in [`c2siorg/genie`](https://github.com/c2siorg/genie)** (with the Microsoft Agent Framework production-edge cutover in [#31](https://github.com/c2siorg/genie/pull/31)). Not demos or forks: production correctness, concurrency, and security fixes landed in `main`, each with a regression test.
 
 | Repository | Track | Focus |
 |---|---|---|
+| [**Genie (`c2siorg/genie`)**](https://github.com/c2siorg/genie) | **Lead architect · 11 merged PRs** | 60+ specialist Go agents on MARA, 11-layer RBI FREE-AI governance, MCP/A2A, GraphRAG, evals, Ollama ([#14](https://github.com/c2siorg/genie/pull/14)–[#33](https://github.com/c2siorg/genie/pull/33)) + MAF edge cutover ([#31](https://github.com/c2siorg/genie/pull/31)) |
 | [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) (701★) | **234 merged PRs** | Runtime correctness across Anthropic & OpenAI providers, workflow engine, A2A, and MCP layers |
 | [**Google ADK (Go)**](https://github.com/google/adk-go) (9.0k★) | **17 merged PRs** | Streaming aggregator nil-guards, Pub/Sub concurrency limits, session-state correctness |
 | [**MCP Go SDK**](https://github.com/modelcontextprotocol/go-sdk) (5.4k★) | **8 merged PRs** | Event-store bounds panic prevention, JSON-RPC response formatting, URI error diagnostics |
@@ -29,7 +46,7 @@
 | [**Google `agentmesh`**](https://github.com/google/agentmesh) (1.3k★), [**Google Ads MCP**](https://github.com/googleads/google-ads-mcp) (1.2k★) & [**GCP Hardening Toolkit**](https://github.com/GoogleCloudPlatform/gcp-hardening-toolkit) | **3 merged PRs** | Router loopback host classification ([#880](https://github.com/google/agentmesh/pull/880)), GAQL MCP reference updater fix ([#143](https://github.com/googleads/google-ads-mcp/pull/143)), VPC-SC triage Linux/GNU date portability ([#82](https://github.com/GoogleCloudPlatform/gcp-hardening-toolkit/pull/82)) |
 | [**Microsoft `scope`**](https://github.com/microsoft/scope) (93★) | **3 merged PRs** | Null-entry guard in HAR choices ([#1488](https://github.com/microsoft/scope/pull/1488)) and API cache / resource precedence docs ([#1491](https://github.com/microsoft/scope/pull/1491), [#1492](https://github.com/microsoft/scope/pull/1492)) |
 | [**Google Cloud Spanner Migration Tool**](https://github.com/GoogleCloudPlatform/spanner-migration-tool) (HarbourBridge, 155★) | **[3 merged](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pulls?q=is%3Apr+is%3Amerged+author%3Apratikdhanave-searce) + [12 in review](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pulls?q=is%3Apr+author%3APratikDhanave)** | Prior core contributor (Intelligent Schema Assistant APIs, Datastream/Pub/Sub/Dataflow CDC) + active schema-conversion panic & GoogleSQL index fixes |
-| **Community & Earlier Upstream** ([`skycoin/cx`](https://github.com/skycoin/cx), [`gocloud`](https://github.com/leopardslab/gocloud), [`gocloud-v2`](https://github.com/scorelab/gocloud-v2), [`c2siorg/genie`](https://github.com/c2siorg/genie), [`onflow/cadence`](https://github.com/onflow/cadence) 546★) | **77 merged PRs** | Unified AWS/GCP/Azure Go cloud libraries, CX Pratt parser (~30% lower parsing complexity), Flow Cadence compiler diagnostics, GSoC cloud-native repos |
+| **Earlier & Community Upstream** ([`skycoin/cx`](https://github.com/skycoin/cx), [`gocloud`](https://github.com/leopardslab/gocloud), [`gocloud-v2`](https://github.com/scorelab/gocloud-v2), [`onflow/cadence`](https://github.com/onflow/cadence) 546★) | **66 merged PRs** | Unified AWS/GCP/Azure Go cloud libraries, CX Pratt parser (~30% lower parsing complexity), Flow Cadence compiler diagnostics, GSoC cloud-native repos |
 
 *Active upstream PRs also in review across `google-deepmind/gemma`, `microsoft/agent-governance-toolkit`, `microsoft/agent-framework-go`, `GoogleCloudPlatform/spanner-migration-tool`, `GoogleCloudPlatform/kubectl-ai`, `openai/gpt-oss`, `vllm-project/vllm`, `aws/bedrock-agentcore-sdk-python`, and `apple/coreai-models`.*
 
@@ -111,7 +128,7 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| [**Genie**](https://pratikdhanave.com/blog/posts/adk-03-multi-agent-systems.html) | Multi-agent financial assistant bridging LLMs with real-time banking APIs for autonomous advisory, predictive cash-flow analysis, and transaction orchestration. 15 role-specialized agents on Google's [multi-agent reference architecture](https://docs.cloud.google.com/architecture/multiagent-ai-system). | Go · Multi-Agent Reference Architecture · MCP · Vertex AI Agent Engine · PostgreSQL · OpenTelemetry |
+| [**Genie**](https://github.com/c2siorg/genie) | Open-source AI financial assistant platform in Go — **60+ specialist agents** on Microsoft's [MARA](https://microsoft.github.io/multi-agent-reference-architecture/index.html) covering retail finance, SME lending, RBI KYC, bancassurance, fraud, treasury, UPI/IMPS/NEFT/RTGS payments & cyber, backed by an **11-layer RBI FREE-AI governance envelope**, MCP/A2A, GraphRAG, and sovereign Ollama ([architecture deep-dive](https://pratikdhanave.com/blog/posts/adk-03-multi-agent-systems.html)). | Go 1.25 · MARA · MCP · A2A · Ollama · pgvector · GraphRAG · OpenTelemetry |
 | [**Bodh**](https://pratikdhanave.com/blog/posts/hl7v2-still-matters.html) | Medical AI inspired by Microsoft's [MAI-DxO Sequential Diagnostic Panel](https://microsoft.ai/news/the-path-to-medical-superintelligence/). Virtual physician panel of 7 role-specialized agents (intake, supervisor, questioner, test planner, cost guardian, diagnostician, reasoning verifier); FHIR R4 + HL7 v2 aware with cost-aware diagnostic budget enforcement. | Go · Multi-Agent Reference Architecture · FHIR R4 · HL7 v2 · SD-Bench |
 | **Bancnet** | Open Banking portal for UAE (ADGM/DIFC) and Saudi (SAMA) with consent management, data residency, and RAG semantic search on AlloyDB AI — **37% latency reduction**. | Python · Go · FastAPI · RAG · pgvector · AlloyDB AI |
 | [**Optimus**](https://pratikdhanave.com/blog/posts/57-percent-bigquery-cost-reduction-tata.html) | Gemini-powered BigQuery analyzer detecting SQL anti-patterns (full scans, inefficient joins, missing partition filters) and recommending optimizations — delivered **57% cost reduction**. | Python · Go · Gemini API · BigQuery |
