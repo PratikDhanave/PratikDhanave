@@ -10,23 +10,28 @@
 
 | Upstream Runtime Authority | Commercial FinOps Impact | Mission-Critical Scale | Published Authority |
 |---|---|---|---|
-| **295+ merged upstream PRs** across Microsoft, Google, MCP, Apple & AWS | **₹100 Cr+ (~$12M)** saved (**57%** BigQuery cut, productized) | **30K+ TPS** & **1M+ users** (**47%** latency cut) | **118+ series (1,320+ posts)** · Google Next & FDE Speaker · 8-yr GSoC |
+| **350+ merged upstream PRs** across **63k+★** repos (Microsoft, Google, MCP, Apple, AWS) | **₹100 Cr+ (~$12M)** saved (**57%** BigQuery cut, productized) | **30K+ TPS** & **1M+ users** (**47%** latency cut) | **118+ series (1,320+ posts)** · Google Next & FDE Speaker · 8-yr GSoC |
 
 ---
 
 ## ⭐ Open-source contributions
 
-**295+ merged upstream PRs** across the official agent frameworks of **Microsoft and Google**, the **Model Context Protocol** standard, official **Apple** and **AWS** repositories, and cloud/compiler tooling (20k+ combined stars). Not demos or forks: production correctness, concurrency, and security fixes landed in `main`, each with a regression test.
+**351 merged external upstream PRs** across **63.5k+ combined stars** — including **274 merged PRs across 12 official Microsoft, Google, MCP, Apple, and AWS repositories** (from **Microsoft Agent Framework Go** and **Google ADK** to **Google Research `timesfm`**, **MCP Go SDK**, **Apple `coreai-models`**, and **AWS**). Not demos or forks: production correctness, concurrency, and security fixes landed in `main`, each with a regression test.
 
 | Repository | Track | Focus |
 |---|---|---|
-| [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) (672★) | **234 merged PRs** | Runtime correctness across Anthropic & OpenAI providers, workflow engine, A2A, and MCP layers |
-| [**Google ADK (Go)**](https://github.com/google/adk-go) (8.9k★) | **17 merged PRs** | Streaming aggregator nil-guards, Pub/Sub concurrency limits, session-state correctness |
-| [**MCP Go SDK**](https://github.com/modelcontextprotocol/go-sdk) (5.3k★) | **8 merged PRs** | Event-store bounds panic prevention and JSON-RPC response formatting |
-| [**Microsoft Agent Governance Toolkit**](https://github.com/microsoft/agent-governance-toolkit) (6.5k★) | **Merged security fixes** | Docker sandbox execution timeout enforcement ([#3567](https://github.com/microsoft/agent-governance-toolkit/pull/3567)) and opt-in PII redaction ([#3565](https://github.com/microsoft/agent-governance-toolkit/pull/3565)) |
-| **Apple, AWS & Microsoft** (Nov 2026) | **First upstream merges** | Apple [`coreai-models#503`](https://github.com/apple/coreai-models/pull/503) (deterministic preset ordering), AWS [`aws-durable-execution-sdk-go#154`](https://github.com/aws/aws-durable-execution-sdk-go/pull/154) (O(n) telemetry re-render fix), Microsoft [`agent-framework#10105`](https://github.com/microsoft/agent-framework/pull/10105) & [`scope`](https://github.com/microsoft/scope/pulls?q=is%3Apr+author%3APratikDhanave) |
-| [**Google Cloud Spanner Migration Tool**](https://github.com/GoogleCloudPlatform/spanner-migration-tool) (HarbourBridge) | **Core contributor + [12 fixes in review](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pulls?q=is%3Apr+author%3APratikDhanave)** | Schema-conversion panic guards & GoogleSQL index correctness; prior [core contributor](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pulls?q=is%3Apr+author%3Apratikdhanave-searce) (Intelligent Schema Assistant APIs, Datastream/Pub/Sub/Dataflow CDC) |
-| [**leopardslab/gocloud**](https://github.com/leopardslab/gocloud) & [**skycoin/cx**](https://github.com/skycoin/cx) | **13 + 17 merged PRs** | Unified AWS/GCP/Azure Go cloud library; CX interpreter Pratt parser (~30% lower parsing complexity) |
+| [**Microsoft Agent Framework Go**](https://github.com/microsoft/agent-framework-go) (701★) | **234 merged PRs** | Runtime correctness across Anthropic & OpenAI providers, workflow engine, A2A, and MCP layers |
+| [**Google ADK (Go)**](https://github.com/google/adk-go) (9.0k★) | **17 merged PRs** | Streaming aggregator nil-guards, Pub/Sub concurrency limits, session-state correctness |
+| [**MCP Go SDK**](https://github.com/modelcontextprotocol/go-sdk) (5.4k★) | **8 merged PRs** | Event-store bounds panic prevention, JSON-RPC response formatting, URI error diagnostics |
+| [**Google Research — TimesFM**](https://github.com/google-research/timesfm) (35.7k★) | **1 merged PR** | Portable Mach page-size detection in system checks ([#554](https://github.com/google-research/timesfm/pull/554)) |
+| [**Microsoft Agent Governance Toolkit**](https://github.com/microsoft/agent-governance-toolkit) (6.6k★) | **2 merged PRs** | Docker sandbox execution timeout enforcement ([#3567](https://github.com/microsoft/agent-governance-toolkit/pull/3567)) and opt-in PII redaction ([#3565](https://github.com/microsoft/agent-governance-toolkit/pull/3565)) |
+| [**Apple `coreai-models`**](https://github.com/apple/coreai-models) (2.4k★) & [**AWS Durable Execution SDK**](https://github.com/aws/aws-durable-execution-sdk-go) | **1 + 2 merged PRs** | Apple deterministic preset ordering ([#503](https://github.com/apple/coreai-models/pull/503)); AWS O(n) telemetry truncation ([#154](https://github.com/aws/aws-durable-execution-sdk-go/pull/154)) & min-duration seeding ([#155](https://github.com/aws/aws-durable-execution-sdk-go/pull/155)) |
+| [**Google `agentmesh`**](https://github.com/google/agentmesh) (1.3k★), [**Google Ads MCP**](https://github.com/googleads/google-ads-mcp) (1.2k★) & [**GCP Hardening Toolkit**](https://github.com/GoogleCloudPlatform/gcp-hardening-toolkit) | **3 merged PRs** | Router loopback host classification ([#880](https://github.com/google/agentmesh/pull/880)), GAQL MCP reference updater fix ([#143](https://github.com/googleads/google-ads-mcp/pull/143)), VPC-SC triage Linux/GNU date portability ([#82](https://github.com/GoogleCloudPlatform/gcp-hardening-toolkit/pull/82)) |
+| [**Microsoft `scope`**](https://github.com/microsoft/scope) (93★) | **3 merged PRs** | Null-entry guard in HAR choices ([#1488](https://github.com/microsoft/scope/pull/1488)) and API cache / resource precedence docs ([#1491](https://github.com/microsoft/scope/pull/1491), [#1492](https://github.com/microsoft/scope/pull/1492)) |
+| [**Google Cloud Spanner Migration Tool**](https://github.com/GoogleCloudPlatform/spanner-migration-tool) (HarbourBridge, 155★) | **[3 merged](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pulls?q=is%3Apr+is%3Amerged+author%3Apratikdhanave-searce) + [12 in review](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pulls?q=is%3Apr+author%3APratikDhanave)** | Prior core contributor (Intelligent Schema Assistant APIs, Datastream/Pub/Sub/Dataflow CDC) + active schema-conversion panic & GoogleSQL index fixes |
+| **Community & Earlier Upstream** ([`skycoin/cx`](https://github.com/skycoin/cx), [`gocloud`](https://github.com/leopardslab/gocloud), [`gocloud-v2`](https://github.com/scorelab/gocloud-v2), [`c2siorg/genie`](https://github.com/c2siorg/genie), [`onflow/cadence`](https://github.com/onflow/cadence) 546★) | **77 merged PRs** | Unified AWS/GCP/Azure Go cloud libraries, CX Pratt parser (~30% lower parsing complexity), Flow Cadence compiler diagnostics, GSoC cloud-native repos |
+
+*Active upstream PRs also in review across `google-deepmind/gemma`, `microsoft/agent-governance-toolkit`, `microsoft/agent-framework-go`, `GoogleCloudPlatform/spanner-migration-tool`, `GoogleCloudPlatform/kubectl-ai`, `openai/gpt-oss`, `vllm-project/vllm`, `aws/bedrock-agentcore-sdk-python`, and `apple/coreai-models`.*
 
 <details>
 <summary><strong>Selected PR highlights</strong> (every fix shipped with a regression test)</summary>
@@ -46,16 +51,26 @@
 **MCP Go SDK (8 merged PRs)**
 - Prevented a `MemoryEventStore.After` panic on an index past the end — [#1132](https://github.com/modelcontextprotocol/go-sdk/pull/1132)
 - Fixed the JSON-RPC response summary to use `%v` and `ID.Raw()` — [#1382](https://github.com/modelcontextprotocol/go-sdk/pull/1382)
+- Named the offending path in `computeURIFilepath` localize errors — [#1381](https://github.com/modelcontextprotocol/go-sdk/pull/1381)
 
-**Microsoft Agent Governance Toolkit**
+**Microsoft Agent Governance Toolkit & Scope (5 merged PRs)**
 - Enforced the configured sandbox execution timeout in the Docker provider — [#3567](https://github.com/microsoft/agent-governance-toolkit/pull/3567)
 - Added opt-in PII redaction to the credential redactor — [#3565](https://github.com/microsoft/agent-governance-toolkit/pull/3565)
+- Guarded against a null entry in the HAR `choices` array (`microsoft/scope`) — [#1488](https://github.com/microsoft/scope/pull/1488)
 
-**Google Cloud Spanner Migration Tool (12 upstream fixes in review + prior core contributor)**
+**Google Research, Google Cloud, Apple & AWS (Nov 2026 merges)**
+- `google-research/timesfm` (35.7k★): Parsed Mach page size instead of assuming 4096 — [#554](https://github.com/google-research/timesfm/pull/554)
+- `apple/coreai-models` (2.4k★): Sorted `ALL_PRESET_NAMES` for deterministic preset ordering — [#503](https://github.com/apple/coreai-models/pull/503)
+- `google/agentmesh` (1.3k★): Covered `isLoopbackBindHost` router host classification — [#880](https://github.com/google/agentmesh/pull/880)
+- `googleads/google-ads-mcp` (1.2k★): Fixed `utils` import in `google-ads-mcp-update-gaql` — [#143](https://github.com/googleads/google-ads-mcp/pull/143)
+- `aws/aws-durable-execution-sdk-go`: Binary-searched `Truncate` drop count to avoid O(n) re-renders ([#154](https://github.com/aws/aws-durable-execution-sdk-go/pull/154)) and seeded min duration from first timed op ([#155](https://github.com/aws/aws-durable-execution-sdk-go/pull/155))
+- `GoogleCloudPlatform/gcp-hardening-toolkit`: Made the 30-day VPC-SC triage window portable to Linux/GNU — [#82](https://github.com/GoogleCloudPlatform/gcp-hardening-toolkit/pull/82)
+
+**Google Cloud Spanner Migration Tool (3 merged + 12 upstream fixes in review)**
 - Preserved the `UNIQUE` flag when converting GoogleSQL indexes — [#1422](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pull/1422)
 - Fixed a nil-pointer panic on `nextval()` with a bare string argument — [#1467](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pull/1467)
 - Keyed ALTER TABLE unique indexes by column ID instead of name — [#1426](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pull/1426)
-- Earlier core work as [`pratikdhanave-searce`](https://github.com/pratikdhanave-searce) (Searce engagement): backend APIs for the Intelligent Schema Assistant, CDC pipelines (Datastream · Pub/Sub · Dataflow), and post-migration query tuning via PK design, indexing, and table interleaving
+- Earlier core merges as [`pratikdhanave-searce`](https://github.com/pratikdhanave-searce) ([#303](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pull/303), [#335](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pull/335), [#348](https://github.com/GoogleCloudPlatform/spanner-migration-tool/pull/348)): backend APIs for the Intelligent Schema Assistant, CDC pipelines (Datastream · Pub/Sub · Dataflow), and post-migration query tuning via PK design, indexing, and table interleaving
 
 </details>
 
