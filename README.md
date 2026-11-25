@@ -4,17 +4,19 @@
 
 [Portfolio](https://pratikdhanave.com) · [Consulting](https://pratikdhanave.com/services/) · [Blog (1,320+ posts)](https://pratikdhanave.com/blog) · [LinkedIn](https://www.linkedin.com/in/pratikdhanave) · [Book a call](https://calendar.app.google/x7W5bAdst4J6MT2u7) · [Email](mailto:i.pratikdhanave@gmail.com)
 
-7+ years building cloud-native, distributed systems in **Go**, **Python**, and **TypeScript** on **GCP**, **AWS**, and **Azure**. I specialize in **Agentic AI systems**, **multi-agent orchestration**, **AI governance and compliance**, healthcare AI, microservices, gRPC / GraphQL APIs, and FinOps — bridging LLMs with real-time enterprise systems across **FinTech, healthcare, and energy** (Google ADK, MCP, Microsoft Agent Framework, Multi-Agent Reference Architecture, Vertex AI Agent Engine, LangChain, LangGraph, CrewAI).
+**Most AI teams assemble agent frameworks. I harden the runtimes they depend on — upstream in Microsoft, Google, MCP, Apple, and AWS — and take regulated enterprise AI from fragile POCs to governed production.**
 
-| Upstream Open Source | Production Scale | Cloud FinOps | Technical Writing |
+7+ years architecting cloud-native, distributed systems in **Go**, **Python**, and **TypeScript** on **GCP**, **AWS**, and **Azure** across **FinTech, healthcare, and critical energy infrastructure** — specializing in **Agentic AI & multi-agent orchestration**, **AI governance & compliance** (RBI FREE-AI, EU AI Act, ADGM/DIFC/SAMA, HIPAA, SOC 2), microservices, gRPC / GraphQL APIs, and cloud FinOps (Google ADK, MCP, Microsoft Agent Framework, Multi-Agent Reference Architecture, Vertex AI Agent Engine, LangChain, LangGraph, CrewAI).
+
+| Upstream Runtime Authority | Commercial FinOps Impact | Mission-Critical Scale | Published Authority |
 |---|---|---|---|
-| **260+ merged PRs** across Microsoft, Google, MCP, Apple & AWS | **30K+ TPS** & **1M+ users** in Go / Kubernetes | **₹100 Cr+ (~$12M)** saved (**57%** BigQuery cost cut) | **118+ series** (**1,320+ posts**) on production AI |
+| **295+ merged upstream PRs** across Microsoft, Google, MCP, Apple & AWS | **₹100 Cr+ (~$12M)** saved (**57%** BigQuery cut, productized) | **30K+ TPS** & **1M+ users** (**47%** latency cut) | **118+ series (1,320+ posts)** · Google Next & FDE Speaker · 8-yr GSoC |
 
 ---
 
 ## ⭐ Open-source contributions
 
-Merged correctness, concurrency, and security fixes into the **official agent frameworks of Microsoft and Google and the Model Context Protocol standard** — plus first merges into official **Apple** and **AWS** repos — the core building blocks of the AI-agent ecosystem (20k+ combined stars). Not demos or forks: code landed in `main`, each with a regression test.
+**295+ merged upstream PRs** across the official agent frameworks of **Microsoft and Google**, the **Model Context Protocol** standard, official **Apple** and **AWS** repositories, and cloud/compiler tooling (20k+ combined stars). Not demos or forks: production correctness, concurrency, and security fixes landed in `main`, each with a regression test.
 
 | Repository | Track | Focus |
 |---|---|---|
@@ -59,10 +61,10 @@ Merged correctness, concurrency, and security fixes into the **official agent fr
 
 ---
 
-## 🎯 What I'm working on right now
+## 🎯 Current focus & engagements
 
-- **Consulting** — forward deployed engineering for AI teams: [production readiness audits](https://pratikdhanave.com/services/ai-production-readiness-audit/), [POC-to-production rescues](https://pratikdhanave.com/services/poc-to-production-rescue/), and [fractional embedded engagements](https://pratikdhanave.com/services/fractional-fde/)
-- **AI transformation for NESO** (National Energy System Operator) — enterprise AI adoption with a strong focus on **AI governance and compliance**
+- **Forward Deployed AI Consulting** — high-impact architecture & delivery for AI engineering teams: [production readiness audits](https://pratikdhanave.com/services/ai-production-readiness-audit/), [POC-to-production rescues](https://pratikdhanave.com/services/poc-to-production-rescue/), and [fractional embedded engagements](https://pratikdhanave.com/services/fractional-fde/)
+- **Critical infrastructure AI governance (NESO)** — driving enterprise AI transformation for the UK National Energy System Operator with a strict focus on **AI governance and compliance**
 - **Multi-agent AI systems** for FinTech (Google ADK · MCP · Multi-Agent Reference Architecture · Vertex AI Agent Engine)
 - **Medical AI** — FHIR R4 + HL7 v2, cost-aware diagnostic budgets, clinical reasoning
 - **RAG & GraphRAG pipelines** on AlloyDB AI, BigQuery Knowledge Graph, and pgvector
@@ -70,7 +72,7 @@ Merged correctness, concurrency, and security fixes into the **official agent fr
 - **Open Banking** — consent management and regulatory compliance (ADGM, DIFC, SAMA)
 - **Upstream open-source** — Microsoft Agent Framework Go, Google ADK, Spanner Migration Tool, Genie, and Bodh
 
-> **📍 Open to:** Consulting engagements (fractional forward deployed engineer, audits, POC rescues — [services](https://pratikdhanave.com/services/)) · AI Architect, Staff Engineer, and Solution Architect roles in **Agentic AI, FinTech, Healthcare Tech, GenAI Infrastructure, and Open Banking** — Bengaluru, Pune, Mumbai, Hyderabad, Remote, EMEA, UAE.
+> **📍 How we can work together:** Selectively partnering on **consulting mandates** (AI production readiness audits, POC-to-production rescues, fractional FDE — [services](https://pratikdhanave.com/services/)) and **Principal / Staff Engineer, AI Architect, and Solution Architect leadership roles** in Agentic AI, FinTech, Healthcare Tech, GenAI Infrastructure, and Open Banking — Bengaluru, Pune, Mumbai, Hyderabad, Remote, EMEA, UAE.
 
 ---
 
@@ -78,6 +80,11 @@ Merged correctness, concurrency, and security fixes into the **official agent fr
 
 - **[Build for RBI, Inherit the EU AI Act](https://github.com/PratikDhanave/Build-For-RBI-Inherit-The-EU-AI-Act)** — **FDExHyderabad (Nov 2026)** · [Interactive Web Deck](https://build-for-rbi-talk.vercel.app) · [Slides, Labs & Cross-Walk](https://github.com/PratikDhanave/Build-For-RBI-Inherit-The-EU-AI-Act)
   What RBI FREE-AI asks of your codebase — and how much of the EU AI Act comes with it. Maps all **17/17 RBI FREE-AI** Regulated Entity controls and **7 inherited EU AI Act controls** to executable Go/Python patterns (composite policy gate, runtime approval-drift detection, tamper-evident SHA-256/Ed25519 audit chain), honestly scores the **RBI Draft MRM Guidance (4 built / 2 open gaps)**, and ships with runnable Pyodide labs, 25 architecture diagrams, a 17-recommendation traceability matrix, and a 5-minute AI vendor procurement scorecard.
+
+| Interactive Talk Deck (Slide 01) | RBI FREE-AI ↔ EU AI Act Cross-Walk (Slide 17) |
+| :---: | :---: |
+| [![Build for RBI, Inherit the EU AI Act — Cover](https://raw.githubusercontent.com/PratikDhanave/Build-For-RBI-Inherit-The-EU-AI-Act/main/docs/screenshots/01-cover.png)](https://build-for-rbi-talk.vercel.app/#1) | [![RBI FREE-AI to EU AI Act Cross-Walk](https://raw.githubusercontent.com/PratikDhanave/Build-For-RBI-Inherit-The-EU-AI-Act/main/docs/screenshots/16-crosswalk.png)](https://build-for-rbi-talk.vercel.app/#17) |
+
 - **[Migrating Monolith Applications into Microservices](https://drive.google.com/drive/folders/1ny-2QsHxhrtlYofbCN3WL2TbVJXDsnxz)** — **Google Cloud Next 2022**
   Practical patterns for decomposing legacy monoliths into resilient, cloud-native microservices on GCP.
 
@@ -198,6 +205,6 @@ I publish in-depth, multi-part technical series at **[pratikdhanave.com/blog](ht
 
 ---
 
-> *Building production AI systems or looking for an AI Architect / Fractional Forward Deployed Engineer? [Book a call](https://calendar.app.google/x7W5bAdst4J6MT2u7), explore [consulting services](https://pratikdhanave.com/services/), or [send an email](mailto:i.pratikdhanave@gmail.com).*
+> *Taking an Agentic AI system into regulated production — or hiring Principal / Staff AI architecture leadership? [Book a call](https://calendar.app.google/x7W5bAdst4J6MT2u7), review [consulting services](https://pratikdhanave.com/services/), or [send an email](mailto:i.pratikdhanave@gmail.com).*
 
 <sub>Last updated: November 2026 · Built with care, not with templates.</sub>
