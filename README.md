@@ -1,6 +1,6 @@
 # Hi, I'm Pratik 👋
 
-**AI Architect & Fractional Forward Deployed Engineer** · Pune, India
+**AI Architect ** · Pune, India
 
 [Portfolio](https://pratikdhanave.com) · [Consulting](https://pratikdhanave.com/services/) · [Blog (1,320+ posts)](https://pratikdhanave.com/blog) · [LinkedIn](https://www.linkedin.com/in/pratikdhanave) · [Book a call](https://calendar.app.google/x7W5bAdst4J6MT2u7) · [Email](mailto:i.pratikdhanave@gmail.com)
 
